@@ -1,0 +1,356 @@
+{
+  "header": {
+    "wording": {
+      "title": "Get Dinosure"
+    },
+    "links": {},
+    "images": {
+      "titleUrl": ""
+    },
+    "displayOptionalSections": {
+      "title": true,
+      "titleImage": false,
+      "premiumInProgressBar": false
+    }
+  },
+  "landing": {
+    "wording": {
+      "title": "Get Dinosure",
+      "subTitle": "From R19 p/m",
+      "description": [
+        "Dinosure is a best of breed insurance scheme which not only provides life and disability insurance for dinosaur attacks, but also provides the following services to prevent that eventuality from ever occurring:"
+      ],
+      "descriptionBullets": [
+        "Early warning network",
+        "Extraction team"
+      ],
+      "createQuoteButton": "Let's get started!",
+      "videoTitle": "Dinosure Emergency Insurance"
+    },
+    "images": {
+      "background": "https://storage.googleapis.com/root-production-public-client-images/Dinosure%20Demo/dinosure-grey-background.svg"
+    },
+    "links": {
+      "youTubeVideoId": "PJlmYh27MHg"
+    },
+    "displayOptionalSections": {
+      "displayLandingPage": false,
+      "descriptionBullets": true,
+      "watchVideo": true
+    }
+  },
+  "quote": {
+    "wording": {
+      "title": "",
+      "description": "Please complete the steps below to get a personalised quote. Let's dive right in!",
+      "coverRejected": "Life cover",
+      "summary": [],
+      "consentDisclaimer": {
+        "consentItems": [
+          "Consent to Dinosure collecting and processing your personal information to provide you with cover."
+        ],
+        "title": "Consent"
+      },
+      "screeningQuestions": [],
+      "screeningQuestionsDescription": "Add your screening question description here",
+      "screeningQuestionsRejected": "Add your rejected screening message here"
+    },
+    "images": {},
+    "links": {
+      "supportEmail": "your-company@support.com",
+      "supportUrl": {
+        "label": "",
+        "url": ""
+      },
+      "supportType": "email"
+    },
+    "displayOptionalSections": {
+      "consentDisclaimer": true,
+      "screeningQuestions": false,
+      "screeningQuestionsRetry": false
+    }
+  },
+  "prePersonalDetailsCompliance": {
+    "wording": {
+      "title": "Pre personal details compliance",
+      "description": "Let’s sign you up! Read the following terms and conditions before proceeding..."
+    },
+    "images": {},
+    "links": {
+      "exitRedirect": "https://dinoparks.net/"
+    },
+    "displayOptionalSections": {
+      "displayPrePersonalDetailsCompliance": true
+    }
+  },
+  "personalDetails": {
+    "wording": {
+      "title": "",
+      "description": "Let's get to know you. Please complete your personal details below."
+    },
+    "links": {},
+    "images": {},
+    "displayOptionalSections": {
+      "skipOnPrefill": false,
+      "contactDetailTypes": [
+        "email",
+        "cellphone"
+      ]
+    }
+  },
+  "application": {
+    "wording": {
+      "title": "",
+      "description": "Please provide some additional details."
+    },
+    "displayOptionalSections": {},
+    "images": {},
+    "links": {}
+  },
+  "beneficiaries": {
+    "wording": {
+      "title": "Dinosure helps protect your loved ones",
+      "description": "Let’s list them as your beneficiaries here. You can add up to 10 beneficiaries now. You’ll be able to change them or add more later."
+    },
+    "images": {},
+    "links": {},
+    "displayOptionalSections": {
+      "displayManageBeneficiaries": true
+    }
+  },
+  "prePaymentCompliance": {
+    "wording": {
+      "title": "Pre payment details compliance",
+      "description": "Let’s sign you up! Read the following terms and conditions before proceeding..."
+    },
+    "images": {},
+    "links": {
+      "exitRedirect": "https://dinoparks.net/"
+    },
+    "displayOptionalSections": {
+      "displayPrePaymentCompliance": false
+    }
+  },
+  "payment": {
+    "wording": {
+      "summary": [
+        {
+          "label": "Cover amount",
+          "content": "{{formatCurrency application.sum_assured application.currency}}"
+        },
+        {
+          "label": "Payment frequency",
+          "content": "{{toStartCase application.billing_frequency}}"
+        },
+        {
+          "label": "Policyholder",
+          "content": "{{application.policyholder.first_name}} {{application.policyholder.last_name }}"
+        },
+        {
+          "label": "Currency",
+          "content": "{{application.currency}}"
+        },
+        {
+          "label": "Email",
+          "content": "{{application.policyholder.email}}"
+        },
+        {
+          "label": "Package name",
+          "content": "{{application.package_name}}"
+        }
+      ],
+      "title": "",
+      "description": "Almost done! Please complete the payment below.",
+      "declaration": "Dinosure is a sample application by Root. The source code is MIT licensed, while the website content is licensed CC BY NC SA 4.0. Dinosure Services (Pty) Ltd is an unauthorised financial services provider. FSP number: 123456. 3 Sauropoda Lane, Isla Nublar, 1337"
+    },
+    "images": {},
+    "links": {},
+    "displayOptionalSections": {
+      "editBillingDay": true,
+      "displayPaymentMethod": true,
+      "displayPaymentDeclaration": true
+    }
+  },
+  "confirmation": {
+    "wording": {
+      "title": "Confirmation",
+      "subTitle": "Thank you for taking out insurance with us.",
+      "description": "You are now covered and your policy schedule should arrive in your inbox shortly.",
+      "contactNumberDescription": "or call us on",
+      "contactNumber": "013 456 7890",
+      "secondarySubTitle": "Want to make a claim?",
+      "secondaryButton": "Fill out our online form",
+      "primaryButton": "Back to home"
+    },
+    "images": {},
+    "links": {
+      "openClaim": "dinoparks.net/claims",
+      "redirectOnCompletedUrl": "issue-policy"
+    },
+    "displayOptionalSections": {
+      "contactNumber": true,
+      "displayConfirmation": true,
+      "secondaryButton": true,
+      "secondarySubTitle": true,
+      "contactNumberDescription": true,
+      "primaryButton": true
+    }
+  },
+  "footer": {
+    "wording": {
+      "disclaimer": "Dinosure is a sample application by Root. The source code is MIT licensed, while the website content is licensed CC BY NC SA 4.0. Dinosure Services (Pty) Ltd is an unauthorised financial services provider. FSP number: 123456. 3 Sauropoda Lane, Isla Nublar, 1337"
+    },
+    "images": {
+      "disclaimerUrl": "https://storage.googleapis.com/root-production-public-client-images/Dinosure%20Demo/root-logo.svg"
+    },
+    "links": {},
+    "displayOptionalSections": {
+      "disclaimerImage": true
+    }
+  },
+  "styles": {
+    "borderRadius": {
+      "button": "8px"
+    },
+    "colors": {
+      "dark": "#00000",
+      "error": "#ff2b38",
+      "light": "#FFFFFF",
+      "border": "#dfdfdf",
+      "primary": "#240E8B",
+      "success": "#1fc881",
+      "warning": "#ffab00",
+      "disabled": "#CDD4DE",
+      "highlight": "#FC64B1",
+      "policyStatusActive": "#1fc881",
+      "policyStatusLapsed": "#d50001",
+      "backgroundHighlight": "rgba(245, 247, 252, 1)",
+      "policyStatusExpired": "#ffab00",
+      "policyStatusPending": "#ffab00",
+      "policyStatusCancelled": "#d50001",
+      "policyStatusNotTakenUp": "#d50001"
+    },
+    "fontFamily": {
+      "title": "Lato",
+      "body": "Lato"
+    },
+    "fontSize": {
+      "body": "16px",
+      "title": "40px",
+      "button": "14px",
+      "footer": "8px",
+      "subTitle": "22px",
+      "subscript": "8px"
+    },
+    "disableSteppedComponents": false
+  },
+  "settings": {
+    "issuingFlowStartingStep": "default",
+    "defaultCountryCodeFromBrowser": true,
+    "supportEmail": "your-company@support.com",
+    "supportUrl": {
+      "label": "",
+      "url": ""
+    },
+    "supportType": "email",
+    "stripePublishableKey": "",
+    "enableSessionPersistence": false,
+    "googlePlacesApiKey": ""
+  },
+  "management": {
+    "beneficiaries": {
+      "wording": {
+        "title": ""
+      },
+      "images": {},
+      "links": {
+        "exitRedirect": ""
+      },
+      "displayOptionalSections": {}
+    },
+    "claim": {
+      "wording": {
+        "title": "",
+        "description": "",
+        "contactNumber": "",
+        "callToAction": ""
+      },
+      "images": {},
+      "links": {
+        "exitRedirect": "",
+        "openClaim": ""
+      },
+      "displayOptionalSections": {
+        "callToAction": true,
+        "contactNumber": true
+      }
+    },
+    "payment": {
+      "wording": {
+        "title": "",
+        "description": ""
+      },
+      "images": {},
+      "links": {
+        "exitRedirect": ""
+      },
+      "displayOptionalSections": {
+        "editBillingDay": false,
+        "editPaymentMethod": false,
+        "viewPaymentMethod": false
+      }
+    },
+    "policyDetails": {
+      "wording": {
+        "description": "",
+        "summary": [
+          {
+            "label": "Cover amount",
+            "content": "{{formatCurrency policy.sum_assured policy.currency}}"
+          },
+          {
+            "label": "Payment frequency",
+            "content": "{{toStartCase policy.billing_frequency}}"
+          },
+          {
+            "label": "Policyholder",
+            "content": "{{policy.policyholder.first_name}} {{policy.policyholder.last_name }}"
+          },
+          {
+            "label": "Currency",
+            "content": "{{policy.currency}}"
+          },
+          {
+            "label": "Email",
+            "content": "{{policy.policyholder.email}}"
+          },
+          {
+            "label": "Billing day",
+            "content": "{{policy.billing_day}}"
+          }
+        ],
+        "title": ""
+      },
+      "images": {},
+      "links": {
+        "exitRedirect": ""
+      },
+      "displayOptionalSections": {}
+    },
+    "policyView": {
+      "wording": {
+        "title": "",
+        "description": "",
+        "contactDescription": "",
+        "contactNumber": ""
+      },
+      "images": {},
+      "links": {
+        "exitRedirect": ""
+      },
+      "displayOptionalSections": {
+        "contactNumber": true
+      }
+    }
+  }
+}

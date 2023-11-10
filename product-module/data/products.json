@@ -1,0 +1,449 @@
+{
+  "status": 200,
+  "message": "Product list retrieved successfully",
+  "data": {
+    "total_results": 77968,
+    "total_results_per_page": 12,
+    "total_pages": 6498,
+    "page": 0,
+    "type": "listAllProducts",
+    "items": [
+      
+      
+     
+      
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb297",
+          "brand": "Sony",
+          "model": "Sony SmartWatch 2",
+          "version": "SW2",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb296",
+          "brand": "Samsung",
+          "model": "Samsung Gear Fit",
+          "version": "SM-R350",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb295",
+          "brand": "Samsung",
+          "model": "Samsung Gear 2 Neo",
+          "version": "SM-R381",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb294",
+          "brand": "Samsung",
+          "model": "Samsung Gear 2",
+          "version": "SM-R380",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb293",
+          "brand": "LG",
+          "model": "LG G Watch",
+          "version": "W100",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb292",
+          "brand": "Samsung",
+          "model": "Samsung Gear Live",
+          "version": "SM-R382",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb291",
+          "brand": "Omate",
+          "model": "Omate X",
+          "version": null,
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb290",
+          "brand": "Motorola",
+          "model": "Motorola Moto 360",
+          "version": null,
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb28f",
+          "brand": "Sony",
+          "model": "Sony SmartWatch 3",
+          "version": "SWR50",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb28e",
+          "brand": "Asus",
+          "model": "Asus ZenWatch",
+          "version": "WI500Q",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb28d",
+          "brand": "LG",
+          "model": "LG G Watch R",
+          "version": "W110",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb28c",
+          "brand": "Pebble",
+          "model": "Pebble Watch Steel",
+          "version": "401S / 401SS",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb28b",
+          "brand": "Pebble",
+          "model": "Pebble Watch",
+          "version": "301",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb28a",
+          "brand": "LG",
+          "model": "LG Audi G Watch",
+          "version": "W120L",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb289",
+          "brand": "Alcatel",
+          "model": "Alcatel OneTouch Watch",
+          "version": null,
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb287",
+          "brand": "Pebble",
+          "model": "Pebble Time 501",
+          "version": null,
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb286",
+          "brand": "LG",
+          "model": "LG Watch Urbane LTE",
+          "version": "W120L",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb285",
+          "brand": "Pebble",
+          "model": "Pebble Time Steel",
+          "version": null,
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb284",
+          "brand": "Huawei",
+          "model": "Huawei Watch W1 42mm",
+          "version": null,
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb283",
+          "brand": "Apple",
+          "model": "Apple Watch 42mm",
+          "version": "A1554",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb282",
+          "brand": "LG",
+          "model": "LG Watch Urbane",
+          "version": "W150",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb281",
+          "brand": "Apple",
+          "model": "Apple Watch Sport 42mm",
+          "version": "A1554",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb280",
+          "brand": "Apple",
+          "model": "Apple Watch Edition 38mm",
+          "version": "A1553",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "63e960cf28a94f6e179fb27f",
+          "brand": "Apple",
+          "model": "Apple Watch Sport 38mm",
+          "version": "A1553",
+          "category": "Smartwatches"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc090a",
+          "brand": "Meizu",
+          "model": "Meizu 20 Pro 5G Premium Edition",
+          "version": "M391Q",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc0908",
+          "brand": "Meizu",
+          "model": "Meizu 20 Pro 5G",
+          "version": "M391Q",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc0905",
+          "brand": "Meizu",
+          "model": "Meizu 20 Infinity 5G",
+          "version": "M392Q",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc0903",
+          "brand": "Meizu",
+          "model": "Meizu 20 Infinity 5G Premium Edition",
+          "version": "M392Q",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc0902",
+          "brand": "Oppo",
+          "model": "Oppo Realme 10T 5G (2023)",
+          "version": "RMX3612",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc0901",
+          "brand": "Oppo",
+          "model": "Oppo Realme 10T 5G (2023) Premium Edition",
+          "version": "RMX3612",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc0900",
+          "brand": "Xiaomi",
+          "model": "Xiaomi Mi 13 Ultra 5G Premium Edition",
+          "version": "2304FPN6DC",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc08fd",
+          "brand": "Meizu",
+          "model": "Meizu 20 5G Classic",
+          "version": "M381Q",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "654cbc234396cdca0cdc08fb",
+          "brand": "Meizu",
+          "model": "Meizu 20 5G",
+          "version": "M381Q",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "6538e7aa070854d4789c24dd",
+          "brand": "Asus",
+          "model": "Asus ZenFone Go TV",
+          "version": "ZB551KL",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "65380c1ad239362007452244",
+          "brand": "Google",
+          "model": "Google Pixel 8 Pro",
+          "version": "GC3VE",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "65380aa9d239362007452242",
+          "brand": "Google",
+          "model": "Google Pixel 8",
+          "version": "GKWS6",
+          "category": "Smartphones"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec825",
+          "brand": "HOTT",
+          "model": "HOTT MD700",
+          "version": "MD700",
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec824",
+          "brand": "FirstOne",
+          "model": "FirstOne P5w",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec823",
+          "brand": "Forsa",
+          "model": "Forsa Posh.Pad",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec821",
+          "brand": "FirstOne",
+          "model": "FirstOne P7b",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec820",
+          "brand": "FirstOne",
+          "model": "FirstOne P7g",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec81f",
+          "brand": "FirstOne",
+          "model": "FirstOne P7w",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec81e",
+          "brand": "Toshiba",
+          "model": "Toshiba FOLIO 100",
+          "version": "FOLIO 100",
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec81d",
+          "brand": "Archos",
+          "model": "Archos 101 G8 Internet Tablet",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec81c",
+          "brand": "Archos",
+          "model": "Archos 70 Internet Tablet",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec819",
+          "brand": "Interpad",
+          "model": "Interpad 10 Home Edition",
+          "version": null,
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec818",
+          "brand": "Sharp",
+          "model": "Sharp Galapagos 10.8-inch Media Tablet",
+          "version": "EB-WX1GJ-B",
+          "category": "Tablets"
+        }
+      },
+      {
+        "product": {
+          "id": "63e961ac53a85104648ec817",
+          "brand": "RIM",
+          "model": "RIM BlackBerry PlayBook",
+          "version": null,
+          "category": "Tablets"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,2618 @@
+[
+  {
+    "key": "date_of_birth",
+    "type": "date-picker",
+    "label": "Date of birth",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ],
+    "outputPath": "date_of_birth"
+  },
+  {
+    "key": "province",
+    "type": "select",
+    "label": "Province",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ],
+    "outputPath": "province",
+    "options": [
+      {
+        "label": "Gauteng",
+        "value": "gauteng"
+      },
+      {
+        "label": "Kwazulu Natal",
+        "value": "kwazulu_natal"
+      },
+      {
+        "label": "Eastern Cape",
+        "value": "eastern_cape"
+      },
+      {
+        "label": "Mpumalanga",
+        "value": "mpumalanga"
+      },
+      {
+        "label": "Limpopo",
+        "value": "limpopo"
+      },
+      {
+        "label": "Western Cape",
+        "value": "western_cape"
+      },
+      {
+        "label": "North West",
+        "value": "north_west"
+      },
+      {
+        "label": "Free State",
+        "value": "free_state"
+      },
+      {
+        "label": "Northern Cape",
+        "value": "northern_cape"
+      }
+    ]
+  },
+  {
+    "type": "list",
+    "label": "Devices",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ],
+    "components": [
+      {
+        "key": "brand",
+        "type": "select",
+        "label": "Brand",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "options": [
+          {
+            "label": "Acer",
+            "value": "Acer"
+          },
+          {
+            "label": "Lenovo",
+            "value": "Lenovo"
+          },
+          {
+            "label": "ASUS",
+            "value": "ASUS"
+          },
+          {
+            "label": "HP",
+            "value": "HP"
+          },
+          {
+            "label": "Samsung",
+            "value": "Samsung"
+          },
+          {
+            "label": "MSI",
+            "value": "MSI"
+          },
+          {
+            "label": "LG",
+            "value": "LG"
+          },
+          {
+            "label": "Gigabyte",
+            "value": "Gigabyte"
+          },
+          {
+            "label": "DELL",
+            "value": "DELL"
+          },
+          {
+            "label": "Toshiba",
+            "value": "Toshiba"
+          },
+          {
+            "label": "Philips",
+            "value": "Philips"
+          },
+          {
+            "label": "Alienware",
+            "value": "Alienware"
+          },
+          {
+            "label": "Huawei",
+            "value": "Huawei"
+          },
+          {
+            "label": "NVIDIA",
+            "value": "NVIDIA"
+          },
+          {
+            "label": "Sony",
+            "value": "Sony"
+          },
+          {
+            "label": "EVGA",
+            "value": "EVGA"
+          },
+          {
+            "label": "Sharp",
+            "value": "Sharp"
+          },
+          {
+            "label": "Panasonic",
+            "value": "Panasonic"
+          },
+          {
+            "label": "Sapphire",
+            "value": "Sapphire"
+          },
+          {
+            "label": "Power Color",
+            "value": "PowerColor"
+          },
+          {
+            "label": "Hisense",
+            "value": "Hisense"
+          },
+          {
+            "label": "TCL",
+            "value": "TCL"
+          },
+          {
+            "label": "Inno 3 D",
+            "value": "Inno3D"
+          },
+          {
+            "label": "Xiaomi",
+            "value": "Xiaomi"
+          },
+          {
+            "label": "HIS",
+            "value": "HIS"
+          },
+          {
+            "label": "ZTE",
+            "value": "ZTE"
+          },
+          {
+            "label": "Oppo",
+            "value": "Oppo"
+          },
+          {
+            "label": "ATI",
+            "value": "ATI"
+          },
+          {
+            "label": "Gainward",
+            "value": "Gainward"
+          },
+          {
+            "label": "Leadtek",
+            "value": "Leadtek"
+          },
+          {
+            "label": "BBK",
+            "value": "BBK"
+          },
+          {
+            "label": "Palit",
+            "value": "Palit"
+          },
+          {
+            "label": "AOC",
+            "value": "AOC"
+          },
+          {
+            "label": "Dynabook",
+            "value": "Dynabook"
+          },
+          {
+            "label": "Xenon",
+            "value": "Xenon"
+          },
+          {
+            "label": "Colorful",
+            "value": "Colorful"
+          },
+          {
+            "label": "Motorola",
+            "value": "Motorola"
+          },
+          {
+            "label": "Club 3 D",
+            "value": "Club 3D"
+          },
+          {
+            "label": "HV",
+            "value": "HV"
+          },
+          {
+            "label": "Axle 3 D",
+            "value": "Axle3D"
+          },
+          {
+            "label": "ZOTAC",
+            "value": "ZOTAC"
+          },
+          {
+            "label": "ELSA",
+            "value": "ELSA"
+          },
+          {
+            "label": "PNY",
+            "value": "PNY"
+          },
+          {
+            "label": "Sparkle",
+            "value": "Sparkle"
+          },
+          {
+            "label": "Nokia",
+            "value": "Nokia"
+          },
+          {
+            "label": "View Sonic",
+            "value": "ViewSonic"
+          },
+          {
+            "label": "AMD",
+            "value": "AMD"
+          },
+          {
+            "label": "XFX",
+            "value": "XFX"
+          },
+          {
+            "label": "Fujitsu",
+            "value": "Fujitsu"
+          },
+          {
+            "label": "Grundig",
+            "value": "Grundig"
+          },
+          {
+            "label": "Point Of View",
+            "value": "Point of View"
+          },
+          {
+            "label": "HTC",
+            "value": "HTC"
+          },
+          {
+            "label": "Vizio",
+            "value": "Vizio"
+          },
+          {
+            "label": "Vision Tek",
+            "value": "VisionTek"
+          },
+          {
+            "label": "Iiyama",
+            "value": "Iiyama"
+          },
+          {
+            "label": "Ben Q",
+            "value": "BenQ"
+          },
+          {
+            "label": "Manli",
+            "value": "Manli"
+          },
+          {
+            "label": "Galax",
+            "value": "Galax"
+          },
+          {
+            "label": "MEDION",
+            "value": "MEDION"
+          },
+          {
+            "label": "AFOX",
+            "value": "AFOX"
+          },
+          {
+            "label": "Alcatel",
+            "value": "Alcatel"
+          },
+          {
+            "label": "VTX 3 D",
+            "value": "VTX3D"
+          },
+          {
+            "label": "Apple",
+            "value": "Apple"
+          },
+          {
+            "label": "Kuroutoshikou",
+            "value": "Kuroutoshikou"
+          },
+          {
+            "label": "Hitachi",
+            "value": "Hitachi"
+          },
+          {
+            "label": "Coolpad",
+            "value": "Coolpad"
+          },
+          {
+            "label": "Yeston",
+            "value": "Yeston"
+          },
+          {
+            "label": "Diamond Multimedia",
+            "value": "Diamond Multimedia"
+          },
+          {
+            "label": "Galaxy",
+            "value": "Galaxy"
+          },
+          {
+            "label": "Bluechip",
+            "value": "bluechip"
+          },
+          {
+            "label": "Pixel View",
+            "value": "PixelView"
+          },
+          {
+            "label": "Archos",
+            "value": "Archos"
+          },
+          {
+            "label": "Lava",
+            "value": "Lava"
+          },
+          {
+            "label": "Micromax",
+            "value": "Micromax"
+          },
+          {
+            "label": "Thomson",
+            "value": "Thomson"
+          },
+          {
+            "label": "A Open",
+            "value": "AOpen"
+          },
+          {
+            "label": "NEC",
+            "value": "NEC"
+          },
+          {
+            "label": "RIM",
+            "value": "RIM"
+          },
+          {
+            "label": "Biostar",
+            "value": "Biostar"
+          },
+          {
+            "label": "KFA 2",
+            "value": "KFA2"
+          },
+          {
+            "label": "Meizu",
+            "value": "Meizu"
+          },
+          {
+            "label": "Gi ONEE",
+            "value": "GiONEE"
+          },
+          {
+            "label": "Hannspree",
+            "value": "Hannspree"
+          },
+          {
+            "label": "Kyocera",
+            "value": "Kyocera"
+          },
+          {
+            "label": "Sceptre",
+            "value": "Sceptre"
+          },
+          {
+            "label": "Blu",
+            "value": "Blu"
+          },
+          {
+            "label": "Wiko",
+            "value": "Wiko"
+          },
+          {
+            "label": "One Plus",
+            "value": "OnePlus"
+          },
+          {
+            "label": "ECS",
+            "value": "ECS"
+          },
+          {
+            "label": "EIZO",
+            "value": "EIZO"
+          },
+          {
+            "label": "T Mobile",
+            "value": "T-Mobile"
+          },
+          {
+            "label": "Allview",
+            "value": "Allview"
+          },
+          {
+            "label": "Intex",
+            "value": "Intex"
+          },
+          {
+            "label": "Dopod",
+            "value": "Dopod"
+          },
+          {
+            "label": "Intel",
+            "value": "Intel"
+          },
+          {
+            "label": "Tecno Mobile",
+            "value": "Tecno Mobile"
+          },
+          {
+            "label": "Vodafone",
+            "value": "Vodafone"
+          },
+          {
+            "label": "Doogee",
+            "value": "Doogee"
+          },
+          {
+            "label": "Blackview",
+            "value": "Blackview"
+          },
+          {
+            "label": "Sony Ericsson",
+            "value": "Sony Ericsson"
+          },
+          {
+            "label": "Ule Fone",
+            "value": "uleFone"
+          },
+          {
+            "label": "Haier",
+            "value": "Haier"
+          },
+          {
+            "label": "Maxsun",
+            "value": "Maxsun"
+          },
+          {
+            "label": "Cherry Mobile",
+            "value": "Cherry Mobile"
+          },
+          {
+            "label": "Orange",
+            "value": "Orange"
+          },
+          {
+            "label": "AS Rock",
+            "value": "ASRock"
+          },
+          {
+            "label": "In Focus",
+            "value": "InFocus"
+          },
+          {
+            "label": "Vestel",
+            "value": "Vestel"
+          },
+          {
+            "label": "Metz Blue",
+            "value": "Metz Blue"
+          },
+          {
+            "label": "Lantic",
+            "value": "Lantic"
+          },
+          {
+            "label": "NTT Do Co Mo",
+            "value": "NTT DoCoMo"
+          },
+          {
+            "label": "UMI",
+            "value": "UMI"
+          },
+          {
+            "label": "Continental Edison",
+            "value": "Continental Edison"
+          },
+          {
+            "label": "O 2",
+            "value": "O2"
+          },
+          {
+            "label": "Microsoft",
+            "value": "Microsoft"
+          },
+          {
+            "label": "Skyworth",
+            "value": "Skyworth"
+          },
+          {
+            "label": "Zopo",
+            "value": "Zopo"
+          },
+          {
+            "label": "Karbonn",
+            "value": "Karbonn"
+          },
+          {
+            "label": "Loewe",
+            "value": "Loewe"
+          },
+          {
+            "label": "Prestigio",
+            "value": "Prestigio"
+          },
+          {
+            "label": "Viotek",
+            "value": "Viotek"
+          },
+          {
+            "label": "Yashi",
+            "value": "Yashi"
+          },
+          {
+            "label": "Soft Bank",
+            "value": "SoftBank"
+          },
+          {
+            "label": "Google",
+            "value": "Google"
+          },
+          {
+            "label": "Hewlett Packard",
+            "value": "Hewlett-Packard"
+          },
+          {
+            "label": "JVC",
+            "value": "JVC"
+          },
+          {
+            "label": "Infinix",
+            "value": "Infinix"
+          },
+          {
+            "label": "Pantech",
+            "value": "Pantech"
+          },
+          {
+            "label": "Cubot",
+            "value": "Cubot"
+          },
+          {
+            "label": "Elephone",
+            "value": "Elephone"
+          },
+          {
+            "label": "Pixio",
+            "value": "Pixio"
+          },
+          {
+            "label": "I Mate",
+            "value": "I-Mate"
+          },
+          {
+            "label": "Metz",
+            "value": "Metz"
+          },
+          {
+            "label": "Qi Gi",
+            "value": "QiGi"
+          },
+          {
+            "label": "THL",
+            "value": "THL"
+          },
+          {
+            "label": "Insignia",
+            "value": "Insignia"
+          },
+          {
+            "label": "Oukitel",
+            "value": "Oukitel"
+          },
+          {
+            "label": "Sugar",
+            "value": "Sugar"
+          },
+          {
+            "label": "Verizon",
+            "value": "Verizon"
+          },
+          {
+            "label": "Highscreen",
+            "value": "Highscreen"
+          },
+          {
+            "label": "Le Eco",
+            "value": "LeEco"
+          },
+          {
+            "label": "Pi PO",
+            "value": "PiPO"
+          },
+          {
+            "label": "Cardex",
+            "value": "Cardex"
+          },
+          {
+            "label": "Amazon",
+            "value": "Amazon"
+          },
+          {
+            "label": "Rover PC",
+            "value": "RoverPC"
+          },
+          {
+            "label": "HKC",
+            "value": "HKC"
+          },
+          {
+            "label": "KDDI",
+            "value": "KDDI"
+          },
+          {
+            "label": "LEAGOO",
+            "value": "LEAGOO"
+          },
+          {
+            "label": "Qtek",
+            "value": "Qtek"
+          },
+          {
+            "label": "Sprint",
+            "value": "Sprint"
+          },
+          {
+            "label": "Telefunken",
+            "value": "Telefunken"
+          },
+          {
+            "label": "I Mobile",
+            "value": "i-mobile"
+          },
+          {
+            "label": "Konka",
+            "value": "Konka"
+          },
+          {
+            "label": "Nevir",
+            "value": "Nevir"
+          },
+          {
+            "label": "Telstra",
+            "value": "Telstra"
+          },
+          {
+            "label": "Zalman",
+            "value": "Zalman"
+          },
+          {
+            "label": "BQ",
+            "value": "BQ"
+          },
+          {
+            "label": "Freetel",
+            "value": "Freetel"
+          },
+          {
+            "label": "Palm",
+            "value": "Palm"
+          },
+          {
+            "label": "I Ball",
+            "value": "iBall"
+          },
+          {
+            "label": "Caterpillar",
+            "value": "Caterpillar"
+          },
+          {
+            "label": "Cube",
+            "value": "Cube"
+          },
+          {
+            "label": "My Phone",
+            "value": "MyPhone"
+          },
+          {
+            "label": "Terra",
+            "value": "Terra"
+          },
+          {
+            "label": "Video Seven",
+            "value": "VideoSeven"
+          },
+          {
+            "label": "Bluebird",
+            "value": "Bluebird"
+          },
+          {
+            "label": "Noa",
+            "value": "Noa"
+          },
+          {
+            "label": "Teclast",
+            "value": "Teclast"
+          },
+          {
+            "label": "Bluboo",
+            "value": "Bluboo"
+          },
+          {
+            "label": "Fossil",
+            "value": "Fossil"
+          },
+          {
+            "label": "Jiayu",
+            "value": "Jiayu"
+          },
+          {
+            "label": "Nixeus",
+            "value": "Nixeus"
+          },
+          {
+            "label": "Smartisan",
+            "value": "Smartisan"
+          },
+          {
+            "label": "Hyundai",
+            "value": "Hyundai"
+          },
+          {
+            "label": "LYF",
+            "value": "LYF"
+          },
+          {
+            "label": "TP Link",
+            "value": "TP-Link"
+          },
+          {
+            "label": "Verykool",
+            "value": "verykool"
+          },
+          {
+            "label": "Ainol",
+            "value": "Ainol"
+          },
+          {
+            "label": "Amoi",
+            "value": "Amoi"
+          },
+          {
+            "label": "Eken",
+            "value": "Eken"
+          },
+          {
+            "label": "Meitu",
+            "value": "Meitu"
+          },
+          {
+            "label": "Uniscope",
+            "value": "Uniscope"
+          },
+          {
+            "label": "Koobee",
+            "value": "Koobee"
+          },
+          {
+            "label": "Q Mobile",
+            "value": "Q-Mobile"
+          },
+          {
+            "label": "VK World",
+            "value": "VKWorld"
+          },
+          {
+            "label": "All Call",
+            "value": "AllCall"
+          },
+          {
+            "label": "Cooler Master",
+            "value": "Cooler Master"
+          },
+          {
+            "label": "Evolveo",
+            "value": "Evolveo"
+          },
+          {
+            "label": "Mio",
+            "value": "Mio"
+          },
+          {
+            "label": "RCA",
+            "value": "RCA"
+          },
+          {
+            "label": "Spice",
+            "value": "Spice"
+          },
+          {
+            "label": "Vertu",
+            "value": "Vertu"
+          },
+          {
+            "label": "Videocon",
+            "value": "Videocon"
+          },
+          {
+            "label": "Yarvik",
+            "value": "Yarvik"
+          },
+          {
+            "label": "General Mobile",
+            "value": "General Mobile"
+          },
+          {
+            "label": "Pioneer",
+            "value": "Pioneer"
+          },
+          {
+            "label": "Starmobile",
+            "value": "Starmobile"
+          },
+          {
+            "label": "Casio",
+            "value": "Casio"
+          },
+          {
+            "label": "Edenwood",
+            "value": "Edenwood"
+          },
+          {
+            "label": "Fly",
+            "value": "Fly"
+          },
+          {
+            "label": "Gigaset",
+            "value": "Gigaset"
+          },
+          {
+            "label": "NUU",
+            "value": "NUU"
+          },
+          {
+            "label": "QNIX",
+            "value": "QNIX"
+          },
+          {
+            "label": "Siemens",
+            "value": "Siemens"
+          },
+          {
+            "label": "Yamada Denki",
+            "value": "Yamada Denki"
+          },
+          {
+            "label": "Any DATA",
+            "value": "AnyDATA"
+          },
+          {
+            "label": "China Mobile",
+            "value": "China Mobile"
+          },
+          {
+            "label": "Gresso",
+            "value": "Gresso"
+          },
+          {
+            "label": "Inn Joo",
+            "value": "InnJoo"
+          },
+          {
+            "label": "KAZAM",
+            "value": "KAZAM"
+          },
+          {
+            "label": "Le TV",
+            "value": "LeTV"
+          },
+          {
+            "label": "Media Droid",
+            "value": "Media-Droid"
+          },
+          {
+            "label": "Qi KU",
+            "value": "QiKU"
+          },
+          {
+            "label": "Vernee",
+            "value": "Vernee"
+          },
+          {
+            "label": "I New",
+            "value": "iNew"
+          },
+          {
+            "label": "Audiovox",
+            "value": "Audiovox"
+          },
+          {
+            "label": "Datalogic Mobile",
+            "value": "Datalogic Mobile"
+          },
+          {
+            "label": "Explay",
+            "value": "Explay"
+          },
+          {
+            "label": "First One",
+            "value": "FirstOne"
+          },
+          {
+            "label": "Kogan",
+            "value": "Kogan"
+          },
+          {
+            "label": "Mobile Compia",
+            "value": "Mobile Compia"
+          },
+          {
+            "label": "NGM",
+            "value": "NGM"
+          },
+          {
+            "label": "Navon",
+            "value": "Navon"
+          },
+          {
+            "label": "OK",
+            "value": "OK."
+          },
+          {
+            "label": "Ozone",
+            "value": "Ozone"
+          },
+          {
+            "label": "Polaroid",
+            "value": "Polaroid"
+          },
+          {
+            "label": "Psion Teklogix",
+            "value": "Psion Teklogix"
+          },
+          {
+            "label": "Quantum",
+            "value": "Quantum"
+          },
+          {
+            "label": "Tesla",
+            "value": "Tesla"
+          },
+          {
+            "label": "Walton",
+            "value": "Walton"
+          },
+          {
+            "label": "Wellco M",
+            "value": "WellcoM"
+          },
+          {
+            "label": "Axioo",
+            "value": "Axioo"
+          },
+          {
+            "label": "Creative Labs",
+            "value": "Creative Labs"
+          },
+          {
+            "label": "Energizer",
+            "value": "Energizer"
+          },
+          {
+            "label": "Fairphone",
+            "value": "Fairphone"
+          },
+          {
+            "label": "JXD",
+            "value": "JXD"
+          },
+          {
+            "label": "KTC",
+            "value": "KTC"
+          },
+          {
+            "label": "M 3 Mobile",
+            "value": "M3Mobile"
+          },
+          {
+            "label": "Nomu",
+            "value": "Nomu"
+          },
+          {
+            "label": "O",
+            "value": "O+"
+          },
+          {
+            "label": "Okwap",
+            "value": "Okwap"
+          },
+          {
+            "label": "Pebble",
+            "value": "Pebble"
+          },
+          {
+            "label": "Point Of View TGT",
+            "value": "Point of View / TGT"
+          },
+          {
+            "label": "Razer",
+            "value": "Razer"
+          },
+          {
+            "label": "Reliance",
+            "value": "Reliance"
+          },
+          {
+            "label": "Smartfren",
+            "value": "Smartfren"
+          },
+          {
+            "label": "Wasabi Mango",
+            "value": "Wasabi Mango"
+          },
+          {
+            "label": "ZUK",
+            "value": "ZUK"
+          },
+          {
+            "label": "Airis",
+            "value": "Airis"
+          },
+          {
+            "label": "Bang Olufsen",
+            "value": "Bang & Olufsen"
+          },
+          {
+            "label": "Cingular",
+            "value": "Cingular"
+          },
+          {
+            "label": "Corsair",
+            "value": "Corsair"
+          },
+          {
+            "label": "Denver",
+            "value": "Denver"
+          },
+          {
+            "label": "Doov",
+            "value": "Doov"
+          },
+          {
+            "label": "Doro",
+            "value": "Doro"
+          },
+          {
+            "label": "Emobile",
+            "value": "Emobile"
+          },
+          {
+            "label": "FIH",
+            "value": "FIH"
+          },
+          {
+            "label": "Freelander",
+            "value": "Freelander"
+          },
+          {
+            "label": "GPLUS",
+            "value": "GPLUS"
+          },
+          {
+            "label": "Garmin",
+            "value": "Garmin"
+          },
+          {
+            "label": "Goclever",
+            "value": "Goclever"
+          },
+          {
+            "label": "Gome",
+            "value": "Gome"
+          },
+          {
+            "label": "HP Palm",
+            "value": "HP Palm"
+          },
+          {
+            "label": "Honeywell",
+            "value": "Honeywell"
+          },
+          {
+            "label": "LANIX",
+            "value": "LANIX"
+          },
+          {
+            "label": "Monoprice",
+            "value": "Monoprice"
+          },
+          {
+            "label": "Multilaser",
+            "value": "Multilaser"
+          },
+          {
+            "label": "Omate",
+            "value": "Omate"
+          },
+          {
+            "label": "Qihoo 360",
+            "value": "Qihoo 360"
+          },
+          {
+            "label": "Siswoo",
+            "value": "Siswoo"
+          },
+          {
+            "label": "Stuart Hughes",
+            "value": "Stuart Hughes"
+          },
+          {
+            "label": "TMN",
+            "value": "TMN"
+          },
+          {
+            "label": "TORQ",
+            "value": "TORQ"
+          },
+          {
+            "label": "Wayte Q",
+            "value": "WayteQ"
+          },
+          {
+            "label": "Zeblaze",
+            "value": "Zeblaze"
+          },
+          {
+            "label": "Zebra",
+            "value": "Zebra"
+          },
+          {
+            "label": "Ziss",
+            "value": "Ziss"
+          },
+          {
+            "label": "I Ocean",
+            "value": "iOcean"
+          },
+          {
+            "label": "Advan",
+            "value": "Advan"
+          },
+          {
+            "label": "Athesi",
+            "value": "Athesi"
+          },
+          {
+            "label": "BN",
+            "value": "BN"
+          },
+          {
+            "label": "Bung Bungame",
+            "value": "BungBungame"
+          },
+          {
+            "label": "Casper",
+            "value": "Casper"
+          },
+          {
+            "label": "Centric",
+            "value": "Centric"
+          },
+          {
+            "label": "Cincinnati Bell",
+            "value": "Cincinnati Bell"
+          },
+          {
+            "label": "Con Corde",
+            "value": "ConCorde"
+          },
+          {
+            "label": "Cyber Bank",
+            "value": "CyberBank"
+          },
+          {
+            "label": "Everex",
+            "value": "Everex"
+          },
+          {
+            "label": "Four Mobile",
+            "value": "Four Mobile"
+          },
+          {
+            "label": "Funkertech",
+            "value": "Funkertech"
+          },
+          {
+            "label": "G Five",
+            "value": "GFive"
+          },
+          {
+            "label": "Ge Cube",
+            "value": "GeCube"
+          },
+          {
+            "label": "Infomark",
+            "value": "Infomark"
+          },
+          {
+            "label": "Itel",
+            "value": "Itel"
+          },
+          {
+            "label": "Ivoomi",
+            "value": "Ivoomi"
+          },
+          {
+            "label": "Jolla",
+            "value": "Jolla"
+          },
+          {
+            "label": "Koolnee",
+            "value": "Koolnee"
+          },
+          {
+            "label": "Krome",
+            "value": "Krome"
+          },
+          {
+            "label": "M Horse",
+            "value": "M-Horse"
+          },
+          {
+            "label": "Maze",
+            "value": "Maze"
+          },
+          {
+            "label": "Mi TAC",
+            "value": "MiTAC"
+          },
+          {
+            "label": "Michael Kors",
+            "value": "Michael Kors"
+          },
+          {
+            "label": "Mobvoi",
+            "value": "Mobvoi"
+          },
+          {
+            "label": "NVIDIA ST",
+            "value": "NVIDIA / ST"
+          },
+          {
+            "label": "NZXT",
+            "value": "NZXT"
+          },
+          {
+            "label": "Obi Worldphone",
+            "value": "Obi Worldphone"
+          },
+          {
+            "label": "Opticon",
+            "value": "Opticon"
+          },
+          {
+            "label": "Q Mobile",
+            "value": "QMobile"
+          },
+          {
+            "label": "Qualcomm",
+            "value": "Qualcomm"
+          },
+          {
+            "label": "Rogers",
+            "value": "Rogers"
+          },
+          {
+            "label": "Sico",
+            "value": "Sico"
+          },
+          {
+            "label": "Smart Q",
+            "value": "SmartQ"
+          },
+          {
+            "label": "Swipe",
+            "value": "Swipe"
+          },
+          {
+            "label": "Tech Faith",
+            "value": "TechFaith"
+          },
+          {
+            "label": "U Bi Q Ui O",
+            "value": "UBiQUiO"
+          },
+          {
+            "label": "Unihertz",
+            "value": "Unihertz"
+          },
+          {
+            "label": "Vido",
+            "value": "Vido"
+          },
+          {
+            "label": "I DO",
+            "value": "iDO"
+          },
+          {
+            "label": "Lephone",
+            "value": "lephone"
+          },
+          {
+            "label": "AXLE",
+            "value": "AXLE"
+          },
+          {
+            "label": "Akortek",
+            "value": "Akortek"
+          },
+          {
+            "label": "Akua Mobile",
+            "value": "Akua Mobile"
+          },
+          {
+            "label": "Alcor",
+            "value": "Alcor"
+          },
+          {
+            "label": "Anex TEK",
+            "value": "AnexTEK"
+          },
+          {
+            "label": "Arima",
+            "value": "Arima"
+          },
+          {
+            "label": "Colors Mobile",
+            "value": "Colors Mobile"
+          },
+          {
+            "label": "Coship",
+            "value": "Coship"
+          },
+          {
+            "label": "Covia",
+            "value": "Covia"
+          },
+          {
+            "label": "Daxian",
+            "value": "Daxian"
+          },
+          {
+            "label": "FIC",
+            "value": "FIC"
+          },
+          {
+            "label": "Faea",
+            "value": "Faea"
+          },
+          {
+            "label": "Far Eas Tone",
+            "value": "FarEasTone"
+          },
+          {
+            "label": "Fourier",
+            "value": "Fourier"
+          },
+          {
+            "label": "Hercules",
+            "value": "Hercules"
+          },
+          {
+            "label": "ICD",
+            "value": "ICD"
+          },
+          {
+            "label": "Intermec",
+            "value": "Intermec"
+          },
+          {
+            "label": "Jivi",
+            "value": "Jivi"
+          },
+          {
+            "label": "Lumigon",
+            "value": "Lumigon"
+          },
+          {
+            "label": "Luna",
+            "value": "Luna"
+          },
+          {
+            "label": "Macoox",
+            "value": "Macoox"
+          },
+          {
+            "label": "Mouse Computer",
+            "value": "Mouse Computer"
+          },
+          {
+            "label": "Newman",
+            "value": "Newman"
+          },
+          {
+            "label": "OR Si O",
+            "value": "ORSiO"
+          },
+          {
+            "label": "Onda",
+            "value": "Onda"
+          },
+          {
+            "label": "One Five",
+            "value": "One Five"
+          },
+          {
+            "label": "Onkyo",
+            "value": "Onkyo"
+          },
+          {
+            "label": "Optimus",
+            "value": "Optimus"
+          },
+          {
+            "label": "Overmax",
+            "value": "Overmax"
+          },
+          {
+            "label": "Planet Computers",
+            "value": "Planet Computers"
+          },
+          {
+            "label": "Plum Mobile",
+            "value": "Plum Mobile"
+          },
+          {
+            "label": "Polytron",
+            "value": "Polytron"
+          },
+          {
+            "label": "Positivo",
+            "value": "Positivo"
+          },
+          {
+            "label": "Qool",
+            "value": "Qool"
+          },
+          {
+            "label": "Ramos",
+            "value": "Ramos"
+          },
+          {
+            "label": "Ringing Bells",
+            "value": "Ringing Bells"
+          },
+          {
+            "label": "STB",
+            "value": "STB"
+          },
+          {
+            "label": "Safako",
+            "value": "Safako"
+          },
+          {
+            "label": "Sencor",
+            "value": "Sencor"
+          },
+          {
+            "label": "Sonim",
+            "value": "Sonim"
+          },
+          {
+            "label": "TAG Heuer",
+            "value": "TAG Heuer"
+          },
+          {
+            "label": "Tonino Lamborghini",
+            "value": "Tonino Lamborghini"
+          },
+          {
+            "label": "Typhoon",
+            "value": "Typhoon"
+          },
+          {
+            "label": "Umeox",
+            "value": "Umeox"
+          },
+          {
+            "label": "Unitech",
+            "value": "Unitech"
+          },
+          {
+            "label": "VAIO",
+            "value": "VAIO"
+          },
+          {
+            "label": "Yezz",
+            "value": "Yezz"
+          },
+          {
+            "label": "Yota",
+            "value": "Yota"
+          },
+          {
+            "label": "Ziox",
+            "value": "Ziox"
+          },
+          {
+            "label": "I Teq",
+            "value": "i-teq"
+          },
+          {
+            "label": "ARP Mobile",
+            "value": "ARP Mobile"
+          },
+          {
+            "label": "Abocom",
+            "value": "Abocom"
+          },
+          {
+            "label": "Axia",
+            "value": "Axia"
+          },
+          {
+            "label": "Bkav",
+            "value": "Bkav"
+          },
+          {
+            "label": "Bush Mobile",
+            "value": "Bush Mobile"
+          },
+          {
+            "label": "Cipher Lab",
+            "value": "CipherLab"
+          },
+          {
+            "label": "Colorovo",
+            "value": "Colorovo"
+          },
+          {
+            "label": "Connect 3 D",
+            "value": "Connect3D"
+          },
+          {
+            "label": "Creative",
+            "value": "Creative"
+          },
+          {
+            "label": "Dallab",
+            "value": "Dallab"
+          },
+          {
+            "label": "Data Wind",
+            "value": "DataWind"
+          },
+          {
+            "label": "Diesel",
+            "value": "Diesel"
+          },
+          {
+            "label": "Disney Mobile",
+            "value": "Disney Mobile"
+          },
+          {
+            "label": "E TEN",
+            "value": "E-TEN"
+          },
+          {
+            "label": "Ericsson",
+            "value": "Ericsson"
+          },
+          {
+            "label": "Eve",
+            "value": "Eve"
+          },
+          {
+            "label": "Evolve",
+            "value": "Evolve"
+          },
+          {
+            "label": "FPT",
+            "value": "FPT"
+          },
+          {
+            "label": "Firefly Mobile",
+            "value": "Firefly Mobile"
+          },
+          {
+            "label": "Gamemax",
+            "value": "Gamemax"
+          },
+          {
+            "label": "Gaoxinqi",
+            "value": "Gaoxinqi"
+          },
+          {
+            "label": "Garmin Asus",
+            "value": "Garmin-Asus"
+          },
+          {
+            "label": "Geeksphone",
+            "value": "Geeksphone"
+          },
+          {
+            "label": "Glocal Me",
+            "value": "GlocalMe"
+          },
+          {
+            "label": "Goophone",
+            "value": "Goophone"
+          },
+          {
+            "label": "Handspring",
+            "value": "Handspring"
+          },
+          {
+            "label": "Hanmac",
+            "value": "Hanmac"
+          },
+          {
+            "label": "Iconbit",
+            "value": "Iconbit"
+          },
+          {
+            "label": "Ikimobile",
+            "value": "Ikimobile"
+          },
+          {
+            "label": "Jinga",
+            "value": "Jinga"
+          },
+          {
+            "label": "K Touch",
+            "value": "K-Touch"
+          },
+          {
+            "label": "KT",
+            "value": "KT"
+          },
+          {
+            "label": "Kaan",
+            "value": "Kaan"
+          },
+          {
+            "label": "Kobo",
+            "value": "Kobo"
+          },
+          {
+            "label": "Kodak",
+            "value": "Kodak"
+          },
+          {
+            "label": "Konrow",
+            "value": "Konrow"
+          },
+          {
+            "label": "Linshof",
+            "value": "Linshof"
+          },
+          {
+            "label": "MAG",
+            "value": "MAG"
+          },
+          {
+            "label": "M Wg",
+            "value": "MWg"
+          },
+          {
+            "label": "Maxwest",
+            "value": "Maxwest"
+          },
+          {
+            "label": "Mercury",
+            "value": "Mercury"
+          },
+          {
+            "label": "Mobiistar",
+            "value": "Mobiistar"
+          },
+          {
+            "label": "Montblanc",
+            "value": "Montblanc"
+          },
+          {
+            "label": "N Drive",
+            "value": "NDrive"
+          },
+          {
+            "label": "Neo",
+            "value": "Neo"
+          },
+          {
+            "label": "Neonode",
+            "value": "Neonode"
+          },
+          {
+            "label": "Nextway",
+            "value": "Nextway"
+          },
+          {
+            "label": "Nothing",
+            "value": "Nothing"
+          },
+          {
+            "label": "Notion Ink",
+            "value": "Notion Ink"
+          },
+          {
+            "label": "Nubia",
+            "value": "Nubia"
+          },
+          {
+            "label": "Olivetti",
+            "value": "Olivetti"
+          },
+          {
+            "label": "PPTV",
+            "value": "PPTV"
+          },
+          {
+            "label": "Palm One",
+            "value": "PalmOne"
+          },
+          {
+            "label": "Pepsi",
+            "value": "Pepsi"
+          },
+          {
+            "label": "Pharos",
+            "value": "Pharos"
+          },
+          {
+            "label": "Pixelphone",
+            "value": "Pixelphone"
+          },
+          {
+            "label": "Poptel",
+            "value": "Poptel"
+          },
+          {
+            "label": "Realme",
+            "value": "Realme"
+          },
+          {
+            "label": "Red Bull Mobile",
+            "value": "Red Bull Mobile"
+          },
+          {
+            "label": "SFR",
+            "value": "SFR"
+          },
+          {
+            "label": "STK",
+            "value": "STK"
+          },
+          {
+            "label": "Sagem",
+            "value": "Sagem"
+          },
+          {
+            "label": "Sendo",
+            "value": "Sendo"
+          },
+          {
+            "label": "Silent Circle",
+            "value": "Silent Circle"
+          },
+          {
+            "label": "Snail",
+            "value": "Snail"
+          },
+          {
+            "label": "Sunno",
+            "value": "Sunno"
+          },
+          {
+            "label": "Symbol",
+            "value": "Symbol"
+          },
+          {
+            "label": "Tatung",
+            "value": "Tatung"
+          },
+          {
+            "label": "True Smart",
+            "value": "TrueSmart"
+          },
+          {
+            "label": "UT Starcom",
+            "value": "UTStarcom"
+          },
+          {
+            "label": "Uhans",
+            "value": "Uhans"
+          },
+          {
+            "label": "Vector",
+            "value": "Vector"
+          },
+          {
+            "label": "Viliv",
+            "value": "Viliv"
+          },
+          {
+            "label": "Vin Smart",
+            "value": "VinSmart"
+          },
+          {
+            "label": "Willcom",
+            "value": "Willcom"
+          },
+          {
+            "label": "Xplore",
+            "value": "Xplore"
+          },
+          {
+            "label": "Yatay",
+            "value": "Yatay"
+          },
+          {
+            "label": "I MI",
+            "value": "iMI"
+          },
+          {
+            "label": "I NO Mobile",
+            "value": "iNO Mobile"
+          },
+          {
+            "label": "Izen Mobile",
+            "value": "izenMobile"
+          },
+          {
+            "label": "3 D Power",
+            "value": "3D Power"
+          },
+          {
+            "label": "Abit",
+            "value": "Abit"
+          },
+          {
+            "label": "Acorn",
+            "value": "Acorn"
+          },
+          {
+            "label": "Advance TC",
+            "value": "AdvanceTC"
+          },
+          {
+            "label": "Airo",
+            "value": "Airo"
+          },
+          {
+            "label": "Akai",
+            "value": "Akai"
+          },
+          {
+            "label": "Altek",
+            "value": "Altek"
+          },
+          {
+            "label": "Appian",
+            "value": "Appian"
+          },
+          {
+            "label": "Ascent",
+            "value": "Ascent"
+          },
+          {
+            "label": "Azumi Mobile",
+            "value": "Azumi Mobile"
+          },
+          {
+            "label": "BFG",
+            "value": "BFG"
+          },
+          {
+            "label": "BOE",
+            "value": "BOE"
+          },
+          {
+            "label": "Babiken",
+            "value": "Babiken"
+          },
+          {
+            "label": "Ben Q Siemens",
+            "value": "BenQ-Siemens"
+          },
+          {
+            "label": "Billion",
+            "value": "Billion"
+          },
+          {
+            "label": "Blaupunkt",
+            "value": "Blaupunkt"
+          },
+          {
+            "label": "Boeing",
+            "value": "Boeing"
+          },
+          {
+            "label": "Boss",
+            "value": "Boss"
+          },
+          {
+            "label": "Bsquare",
+            "value": "Bsquare"
+          },
+          {
+            "label": "Camangi",
+            "value": "Camangi"
+          },
+          {
+            "label": "Celkon",
+            "value": "Celkon"
+          },
+          {
+            "label": "Changjiang",
+            "value": "Changjiang"
+          },
+          {
+            "label": "Commodore",
+            "value": "Commodore"
+          },
+          {
+            "label": "Commtiva",
+            "value": "Commtiva"
+          },
+          {
+            "label": "Compaq OEM",
+            "value": "Compaq OEM"
+          },
+          {
+            "label": "Compu Lab",
+            "value": "CompuLab"
+          },
+          {
+            "label": "Condor",
+            "value": "Condor"
+          },
+          {
+            "label": "Coxion",
+            "value": "Coxion"
+          },
+          {
+            "label": "Creo",
+            "value": "Creo"
+          },
+          {
+            "label": "DAP",
+            "value": "DAP"
+          },
+          {
+            "label": "Datang",
+            "value": "Datang"
+          },
+          {
+            "label": "Dell OEM",
+            "value": "Dell OEM"
+          },
+          {
+            "label": "Diginnos Mobile",
+            "value": "Diginnos Mobile"
+          },
+          {
+            "label": "Dough",
+            "value": "Dough"
+          },
+          {
+            "label": "Eins Und Eins",
+            "value": "EinsUndEins"
+          },
+          {
+            "label": "Emporio Armani",
+            "value": "Emporio Armani"
+          },
+          {
+            "label": "Essential",
+            "value": "Essential"
+          },
+          {
+            "label": "Exper",
+            "value": "Exper"
+          },
+          {
+            "label": "Figgers",
+            "value": "Figgers"
+          },
+          {
+            "label": "Forsa",
+            "value": "Forsa"
+          },
+          {
+            "label": "Fujitsu Siemens",
+            "value": "Fujitsu-Siemens"
+          },
+          {
+            "label": "Fxtec",
+            "value": "Fxtec"
+          },
+          {
+            "label": "Grun Mobile",
+            "value": "GrunMobile"
+          },
+          {
+            "label": "HAUS",
+            "value": "HAUS"
+          },
+          {
+            "label": "HOTT",
+            "value": "HOTT"
+          },
+          {
+            "label": "HP Compaq",
+            "value": "HP / Compaq"
+          },
+          {
+            "label": "Hivision",
+            "value": "Hivision"
+          },
+          {
+            "label": "Honor",
+            "value": "Honor"
+          },
+          {
+            "label": "INQ",
+            "value": "INQ"
+          },
+          {
+            "label": "Innos",
+            "value": "Innos"
+          },
+          {
+            "label": "Interpad",
+            "value": "Interpad"
+          },
+          {
+            "label": "Inventec",
+            "value": "Inventec"
+          },
+          {
+            "label": "Join Tech",
+            "value": "JoinTech"
+          },
+          {
+            "label": "Joinhand",
+            "value": "Joinhand"
+          },
+          {
+            "label": "KNC",
+            "value": "KNC"
+          },
+          {
+            "label": "Kate Spade",
+            "value": "Kate Spade"
+          },
+          {
+            "label": "Keecoo",
+            "value": "Keecoo"
+          },
+          {
+            "label": "Kult",
+            "value": "Kult"
+          },
+          {
+            "label": "Land Rover",
+            "value": "Land Rover"
+          },
+          {
+            "label": "Leway",
+            "value": "Leway"
+          },
+          {
+            "label": "Lobster",
+            "value": "Lobster"
+          },
+          {
+            "label": "Louis Vuitton",
+            "value": "Louis Vuitton"
+          },
+          {
+            "label": "Marshall",
+            "value": "Marshall"
+          },
+          {
+            "label": "Misfit",
+            "value": "Misfit"
+          },
+          {
+            "label": "Mobinnova",
+            "value": "Mobinnova"
+          },
+          {
+            "label": "Mogu",
+            "value": "Mogu"
+          },
+          {
+            "label": "Movado",
+            "value": "Movado"
+          },
+          {
+            "label": "Neptune",
+            "value": "Neptune"
+          },
+          {
+            "label": "New Balance",
+            "value": "New Balance"
+          },
+          {
+            "label": "OKWU",
+            "value": "OKWU"
+          },
+          {
+            "label": "Optima",
+            "value": "Optima"
+          },
+          {
+            "label": "Oregon Scientific",
+            "value": "Oregon Scientific"
+          },
+          {
+            "label": "Owen",
+            "value": "Owen"
+          },
+          {
+            "label": "Pine",
+            "value": "Pine"
+          },
+          {
+            "label": "Polar",
+            "value": "Polar"
+          },
+          {
+            "label": "Power Magic",
+            "value": "PowerMagic"
+          },
+          {
+            "label": "Protruly",
+            "value": "Protruly"
+          },
+          {
+            "label": "RED",
+            "value": "RED"
+          },
+          {
+            "label": "Redmi",
+            "value": "Redmi"
+          },
+          {
+            "label": "Royole",
+            "value": "Royole"
+          },
+          {
+            "label": "Sanyo",
+            "value": "Sanyo"
+          },
+          {
+            "label": "Saygus",
+            "value": "Saygus"
+          },
+          {
+            "label": "Sharper Image",
+            "value": "Sharper Image"
+          },
+          {
+            "label": "Sierra Wireless",
+            "value": "Sierra Wireless"
+          },
+          {
+            "label": "Silicon I",
+            "value": "Silicon-i"
+          },
+          {
+            "label": "Simvalley Mobile",
+            "value": "Simvalley Mobile"
+          },
+          {
+            "label": "Sitronics",
+            "value": "Sitronics"
+          },
+          {
+            "label": "Soulycin",
+            "value": "Soulycin"
+          },
+          {
+            "label": "Swisscom",
+            "value": "Swisscom"
+          },
+          {
+            "label": "Telekom",
+            "value": "Telekom"
+          },
+          {
+            "label": "Tencent",
+            "value": "Tencent"
+          },
+          {
+            "label": "Tesco",
+            "value": "Tesco"
+          },
+          {
+            "label": "The Medical Phone",
+            "value": "The Medical Phone"
+          },
+          {
+            "label": "Thuraya",
+            "value": "Thuraya"
+          },
+          {
+            "label": "Trinity",
+            "value": "Trinity"
+          },
+          {
+            "label": "Trium",
+            "value": "Trium"
+          },
+          {
+            "label": "Turing",
+            "value": "Turing"
+          },
+          {
+            "label": "UPQ",
+            "value": "UPQ"
+          },
+          {
+            "label": "Ubik",
+            "value": "Ubik"
+          },
+          {
+            "label": "VCHOK",
+            "value": "VCHOK"
+          },
+          {
+            "label": "Verzio",
+            "value": "Verzio"
+          },
+          {
+            "label": "Vitsmo",
+            "value": "Vitsmo"
+          },
+          {
+            "label": "Wanxin",
+            "value": "Wanxin"
+          },
+          {
+            "label": "Wileyfox",
+            "value": "Wileyfox"
+          },
+          {
+            "label": "Yangtze",
+            "value": "Yangtze"
+          },
+          {
+            "label": "Zenum",
+            "value": "Zenum"
+          },
+          {
+            "label": "Zy Xel",
+            "value": "ZyXel"
+          },
+          {
+            "label": "En Tourage",
+            "value": "enTourage"
+          }
+        ]
+      },
+      {
+        "key": "worldwide_cover",
+        "type": "checkbox",
+        "label": "Worldwide cover",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ]
+      },
+      {
+        "key": "device_usage",
+        "type": "select",
+        "label": "Device usage",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "options": [
+          {
+            "label": "Personal",
+            "value": "personal"
+          },
+          {
+            "label": "Work",
+            "value": "work"
+          }
+        ]
+      },
+      {
+        "key": "model",
+        "type": "select",
+        "label": "Model",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "options": [
+          {
+            "label": "Sony Smart Watch 2",
+            "value": "Sony SmartWatch 2"
+          },
+          {
+            "label": "Samsung Gear Fit",
+            "value": "Samsung Gear Fit"
+          },
+          {
+            "label": "Samsung Gear 2 Neo",
+            "value": "Samsung Gear 2 Neo"
+          },
+          {
+            "label": "Samsung Gear 2",
+            "value": "Samsung Gear 2"
+          },
+          {
+            "label": "LG G Watch",
+            "value": "LG G Watch"
+          },
+          {
+            "label": "Samsung Gear Live",
+            "value": "Samsung Gear Live"
+          },
+          {
+            "label": "Omate X",
+            "value": "Omate X"
+          },
+          {
+            "label": "Motorola Moto 360",
+            "value": "Motorola Moto 360"
+          },
+          {
+            "label": "Sony Smart Watch 3",
+            "value": "Sony SmartWatch 3"
+          },
+          {
+            "label": "Asus Zen Watch",
+            "value": "Asus ZenWatch"
+          },
+          {
+            "label": "LG G Watch R",
+            "value": "LG G Watch R"
+          },
+          {
+            "label": "Pebble Watch Steel",
+            "value": "Pebble Watch Steel"
+          },
+          {
+            "label": "Pebble Watch",
+            "value": "Pebble Watch"
+          },
+          {
+            "label": "LG Audi G Watch",
+            "value": "LG Audi G Watch"
+          },
+          {
+            "label": "Alcatel One Touch Watch",
+            "value": "Alcatel OneTouch Watch"
+          },
+          {
+            "label": "Pebble Time 501",
+            "value": "Pebble Time 501"
+          },
+          {
+            "label": "LG Watch Urbane LTE",
+            "value": "LG Watch Urbane LTE"
+          },
+          {
+            "label": "Pebble Time Steel",
+            "value": "Pebble Time Steel"
+          },
+          {
+            "label": "Huawei Watch W 1 42 Mm",
+            "value": "Huawei Watch W1 42mm"
+          },
+          {
+            "label": "Apple Watch 42 Mm",
+            "value": "Apple Watch 42mm"
+          },
+          {
+            "label": "LG Watch Urbane",
+            "value": "LG Watch Urbane"
+          },
+          {
+            "label": "Apple Watch Sport 42 Mm",
+            "value": "Apple Watch Sport 42mm"
+          },
+          {
+            "label": "Apple Watch Edition 38 Mm",
+            "value": "Apple Watch Edition 38mm"
+          },
+          {
+            "label": "Apple Watch Sport 38 Mm",
+            "value": "Apple Watch Sport 38mm"
+          },
+          {
+            "label": "Meizu 20 Pro 5 G Premium Edition",
+            "value": "Meizu 20 Pro 5G Premium Edition"
+          },
+          {
+            "label": "Meizu 20 Pro 5 G",
+            "value": "Meizu 20 Pro 5G"
+          },
+          {
+            "label": "Meizu 20 Infinity 5 G",
+            "value": "Meizu 20 Infinity 5G"
+          },
+          {
+            "label": "Meizu 20 Infinity 5 G Premium Edition",
+            "value": "Meizu 20 Infinity 5G Premium Edition"
+          },
+          {
+            "label": "Oppo Realme 10 T 5 G 2023",
+            "value": "Oppo Realme 10T 5G (2023)"
+          },
+          {
+            "label": "Oppo Realme 10 T 5 G 2023 Premium Edition",
+            "value": "Oppo Realme 10T 5G (2023) Premium Edition"
+          },
+          {
+            "label": "Xiaomi Mi 13 Ultra 5 G Premium Edition",
+            "value": "Xiaomi Mi 13 Ultra 5G Premium Edition"
+          },
+          {
+            "label": "Meizu 20 5 G Classic",
+            "value": "Meizu 20 5G Classic"
+          },
+          {
+            "label": "Meizu 20 5 G",
+            "value": "Meizu 20 5G"
+          },
+          {
+            "label": "Asus Zen Fone Go TV",
+            "value": "Asus ZenFone Go TV"
+          },
+          {
+            "label": "Google Pixel 8 Pro",
+            "value": "Google Pixel 8 Pro"
+          },
+          {
+            "label": "Google Pixel 8",
+            "value": "Google Pixel 8"
+          },
+          {
+            "label": "HOTT MD 700",
+            "value": "HOTT MD700"
+          },
+          {
+            "label": "First One P 5 W",
+            "value": "FirstOne P5w"
+          },
+          {
+            "label": "Forsa Posh Pad",
+            "value": "Forsa Posh.Pad"
+          },
+          {
+            "label": "First One P 7 B",
+            "value": "FirstOne P7b"
+          },
+          {
+            "label": "First One P 7 G",
+            "value": "FirstOne P7g"
+          },
+          {
+            "label": "First One P 7 W",
+            "value": "FirstOne P7w"
+          },
+          {
+            "label": "Toshiba FOLIO 100",
+            "value": "Toshiba FOLIO 100"
+          },
+          {
+            "label": "Archos 101 G 8 Internet Tablet",
+            "value": "Archos 101 G8 Internet Tablet"
+          },
+          {
+            "label": "Archos 70 Internet Tablet",
+            "value": "Archos 70 Internet Tablet"
+          },
+          {
+            "label": "Interpad 10 Home Edition",
+            "value": "Interpad 10 Home Edition"
+          },
+          {
+            "label": "Sharp Galapagos 10 8 Inch Media Tablet",
+            "value": "Sharp Galapagos 10.8-inch Media Tablet"
+          },
+          {
+            "label": "RIM Black Berry Play Book",
+            "value": "RIM BlackBerry PlayBook"
+          },
+          {
+            "label": "Other",
+            "value": "Other"
+          }
+        ]
+      },
+      {
+        "key": "model_other_then",
+        "type": "text",
+        "label": "Model other",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "outputPath": "model_other",
+        "displayConditions": [
+          {
+            "path": "model",
+            "value": "Other",
+            "condition": "==="
+          }
+        ]
+      },
+      {
+        "key": "value_amount",
+        "type": "currency",
+        "label": "Value amount",
+        "validators": [
+          {
+            "validation": {
+              "type": "greaterThanCurrency",
+              "min": 100000
+            }
+          },
+          {
+            "validation": {
+              "type": "lessThanCurrency",
+              "max": 5000000
+            }
+          },
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "props": {
+          "prefix": "R"
+        }
+      }
+    ],
+    "outputPathList": "devices",
+    "props": {
+      "addButtonLabel": "Add"
+    },
+    "minNumber": 1,
+    "maxNumber": 5
+  }
+]

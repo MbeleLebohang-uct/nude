@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+      .page {
+        width: 13cm;
+        min-height: 19.8cm;
+        position: relative;
+        page-break-after: always;
+      }
+      .page.no-break {
+        page-break-after: auto;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="page"> <!-- Page 1 start -->
+      <div style="position: absolute; left: 0; top: 0;">
+        Top left of first page
+      </div>
+      <div style="position: absolute; bottom: 0; right: 0;">
+        Bottom right of first page
+      </div>
+    </div> <!-- Page 1 end -->
+
+    <div class="page no-break"> <!-- Page 2 start -->
+      <div style="position: absolute; left: 0; top: 0;">
+        Top left of second page
+      </div>
+      <div style="position: absolute; bottom: 0; right: 0;">
+        Bottom right of second page
+      </div>
+    </div> <!-- Page 2 end -->
+
+  </body>
+</html>

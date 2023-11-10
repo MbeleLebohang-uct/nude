@@ -1,0 +1,2794 @@
+{
+    "status": 200,
+    "message": "Brand list retrieved successfully",
+    "data": {
+        "total": 557,
+        "items": [
+            {
+                "brand": "Acer",
+                "brand_factor": 0.16984,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Lenovo",
+                "brand_factor": 0.15605,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ASUS",
+                "brand_factor": 0.11949,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "HP",
+                "brand_factor": 0.5531,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Samsung",
+                "brand_factor": 0.3431,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "MSI",
+                "brand_factor": 0.3265,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "LG",
+                "brand_factor": 0.2584,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Gigabyte",
+                "brand_factor": 0.1472,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "DELL",
+                "brand_factor": 0.1113,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Toshiba",
+                "brand_factor": 0.1021,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Philips",
+                "brand_factor": 0.987,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Alienware",
+                "brand_factor": 0.842,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Huawei",
+                "brand_factor": 0.842,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "NVIDIA",
+                "brand_factor": 0.833,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sony",
+                "brand_factor": 0.786,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "EVGA",
+                "brand_factor": 0.778,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sharp",
+                "brand_factor": 0.758,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Panasonic",
+                "brand_factor": 0.686,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sapphire",
+                "brand_factor": 0.663,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "PowerColor",
+                "brand_factor": 0.656,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Hisense",
+                "brand_factor": 0.620,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "TCL",
+                "brand_factor": 0.616,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Inno3D",
+                "brand_factor": 0.606,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Xiaomi",
+                "brand_factor": 0.604,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "HIS",
+                "brand_factor": 0.569,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ZTE",
+                "brand_factor": 0.568,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Oppo",
+                "brand_factor": 0.562,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ATI",
+                "brand_factor": 0.558,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Gainward",
+                "brand_factor": 0.555,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Leadtek",
+                "brand_factor": 0.527,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "BBK",
+                "brand_factor": 0.502,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Palit",
+                "brand_factor": 0.499,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "AOC",
+                "brand_factor": 0.494,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Dynabook",
+                "brand_factor": 0.494,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Xenon",
+                "brand_factor": 0.492,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Colorful",
+                "brand_factor": 0.485,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Motorola",
+                "brand_factor": 0.427,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Club 3D",
+                "brand_factor": 0.397,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "HV",
+                "brand_factor": 0.393,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Axle3D",
+                "brand_factor": 0.358,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ZOTAC",
+                "brand_factor": 0.355,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ELSA",
+                "brand_factor": 0.350,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "PNY",
+                "brand_factor": 0.334,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sparkle",
+                "brand_factor": 0.333,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Nokia",
+                "brand_factor": 0.329,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ViewSonic",
+                "brand_factor": 0.328,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "AMD",
+                "brand_factor": 0.315,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "XFX",
+                "brand_factor": 0.315,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Fujitsu",
+                "brand_factor": 0.312,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Grundig",
+                "brand_factor": 0.309,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Point of View",
+                "brand_factor": 0.285,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "HTC",
+                "brand_factor": 0.277,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Vizio",
+                "brand_factor": 0.268,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "VisionTek",
+                "brand_factor": 0.261,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Iiyama",
+                "brand_factor": 0.234,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "BenQ",
+                "brand_factor": 0.231,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Manli",
+                "brand_factor": 0.215,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Galax",
+                "brand_factor": 0.214,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "MEDION",
+                "brand_factor": 0.196,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "AFOX",
+                "brand_factor": 0.195,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Alcatel",
+                "brand_factor": 0.190,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "VTX3D",
+                "brand_factor": 0.180,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Apple",
+                "brand_factor": 0.169,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Kuroutoshikou",
+                "brand_factor": 0.158,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Hitachi",
+                "brand_factor": 0.156,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Coolpad",
+                "brand_factor": 0.143,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Yeston",
+                "brand_factor": 0.142,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Diamond Multimedia",
+                "brand_factor": 0.140,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Galaxy",
+                "brand_factor": 0.139,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "bluechip",
+                "brand_factor": 0.134,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "PixelView",
+                "brand_factor": 0.126,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Archos",
+                "brand_factor": 0.119,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Lava",
+                "brand_factor": 0.119,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Micromax",
+                "brand_factor": 0.117,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Thomson",
+                "brand_factor": 0.116,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "AOpen",
+                "brand_factor": 0.114,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "NEC",
+                "brand_factor": 0.107,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "RIM",
+                "brand_factor": 0.107,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Biostar",
+                "brand_factor": 0.104,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "KFA2",
+                "brand_factor": 0.100,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Meizu",
+                "brand_factor": 0.100,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "GiONEE",
+                "brand_factor": 0.92,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Hannspree",
+                "brand_factor": 0.88,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Kyocera",
+                "brand_factor": 0.86,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sceptre",
+                "brand_factor": 0.84,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Blu",
+                "brand_factor": 0.82,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Wiko",
+                "brand_factor": 0.82,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "OnePlus",
+                "brand_factor": 0.80,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ECS",
+                "brand_factor": 0.79,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "EIZO",
+                "brand_factor": 0.77,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "T-Mobile",
+                "brand_factor": 0.77,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Allview",
+                "brand_factor": 0.73,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Intex",
+                "brand_factor": 0.69,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Dopod",
+                "brand_factor": 0.66,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Intel",
+                "brand_factor": 0.66,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Tecno Mobile",
+                "brand_factor": 0.61,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Vodafone",
+                "brand_factor": 0.56,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Doogee",
+                "brand_factor": 0.54,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Blackview",
+                "brand_factor": 0.52,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sony Ericsson",
+                "brand_factor": 0.52,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "uleFone",
+                "brand_factor": 0.52,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Haier",
+                "brand_factor": 0.51,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Maxsun",
+                "brand_factor": 0.51,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Cherry Mobile",
+                "brand_factor": 0.50,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Orange",
+                "brand_factor": 0.50,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "ASRock",
+                "brand_factor": 0.49,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "InFocus",
+                "brand_factor": 0.49,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Vestel",
+                "brand_factor": 0.49,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Metz Blue",
+                "brand_factor": 0.47,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Lantic",
+                "brand_factor": 0.46,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "NTT DoCoMo",
+                "brand_factor": 0.46,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "UMI",
+                "brand_factor": 0.46,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Continental Edison",
+                "brand_factor": 0.45,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "O2",
+                "brand_factor": 0.45,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Microsoft",
+                "brand_factor": 0.43,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Skyworth",
+                "brand_factor": 0.42,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Zopo",
+                "brand_factor": 0.39,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Karbonn",
+                "brand_factor": 0.38,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Loewe",
+                "brand_factor": 0.38,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Prestigio",
+                "brand_factor": 0.38,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Viotek",
+                "brand_factor": 0.38,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Yashi",
+                "brand_factor": 0.38,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "SoftBank",
+                "brand_factor": 0.37,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Google",
+                "brand_factor": 0.36,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Hewlett-Packard",
+                "brand_factor": 0.36,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "JVC",
+                "brand_factor": 0.36,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Infinix",
+                "brand_factor": 0.35,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Pantech",
+                "brand_factor": 0.35,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Cubot",
+                "brand_factor": 0.34,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Elephone",
+                "brand_factor": 0.34,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Pixio",
+                "brand_factor": 0.33,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "I-Mate",
+                "brand_factor": 0.32,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Metz",
+                "brand_factor": 0.32,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "QiGi",
+                "brand_factor": 0.32,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "THL",
+                "brand_factor": 0.32,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Insignia",
+                "brand_factor": 0.29,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Oukitel",
+                "brand_factor": 0.29,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sugar",
+                "brand_factor": 0.29,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Verizon",
+                "brand_factor": 0.29,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Highscreen",
+                "brand_factor": 0.28,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "LeEco",
+                "brand_factor": 0.27,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "PiPO",
+                "brand_factor": 0.27,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Cardex",
+                "brand_factor": 0.26,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Amazon",
+                "brand_factor": 0.25,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "RoverPC",
+                "brand_factor": 0.25,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "HKC",
+                "brand_factor": 0.23,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "KDDI",
+                "brand_factor": 0.23,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "LEAGOO",
+                "brand_factor": 0.23,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Qtek",
+                "brand_factor": 0.23,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Sprint",
+                "brand_factor": 0.22,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Telefunken",
+                "brand_factor": 0.22,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "i-mobile",
+                "brand_factor": 0.22,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Konka",
+                "brand_factor": 0.20,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Nevir",
+                "brand_factor": 0.20,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Telstra",
+                "brand_factor": 0.20,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Zalman",
+                "brand_factor": 0.19,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "BQ",
+                "brand_factor": 0.18,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Freetel",
+                "brand_factor": 0.18,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Palm",
+                "brand_factor": 0.18,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "iBall",
+                "brand_factor": 0.18,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Caterpillar",
+                "brand_factor": 0.17,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Cube",
+                "brand_factor": 0.17,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "MyPhone",
+                "brand_factor": 0.17,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Terra",
+                "brand_factor": 0.17,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "VideoSeven",
+                "brand_factor": 0.17,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Bluebird",
+                "brand_factor": 0.16,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Noa",
+                "brand_factor": 0.16,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Teclast",
+                "brand_factor": 0.16,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Bluboo",
+                "brand_factor": 0.15,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Fossil",
+                "brand_factor": 0.15,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Jiayu",
+                "brand_factor": 0.15,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Nixeus",
+                "brand_factor": 0.15,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Smartisan",
+                "brand_factor": 0.15,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Hyundai",
+                "brand_factor": 0.14,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "LYF",
+                "brand_factor": 0.14,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "TP-Link",
+                "brand_factor": 0.14,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "verykool",
+                "brand_factor": 0.14,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Ainol",
+                "brand_factor": 0.13,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Amoi",
+                "brand_factor": 0.13,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Eken",
+                "brand_factor": 0.13,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Meitu",
+                "brand_factor": 0.13,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Uniscope",
+                "brand_factor": 0.13,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Koobee",
+                "brand_factor": 0.12,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Q-Mobile",
+                "brand_factor": 0.12,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "VKWorld",
+                "brand_factor": 0.12,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "AllCall",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Cooler Master",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Evolveo",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Mio",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "RCA",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Spice",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Vertu",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Videocon",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Yarvik",
+                "brand_factor": 0.11,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "General Mobile",
+                "brand_factor": 0.10,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Pioneer",
+                "brand_factor": 0.10,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Starmobile",
+                "brand_factor": 0.10,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Casio",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Edenwood",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Fly",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Gigaset",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "NUU",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "QNIX",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Siemens",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Yamada Denki",
+                "brand_factor": 0.9,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "AnyDATA",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "China Mobile",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Gresso",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "InnJoo",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "KAZAM",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "LeTV",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Media-Droid",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "QiKU",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Vernee",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "iNew",
+                "brand_factor": 0.8,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Audiovox",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Datalogic Mobile",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Explay",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "FirstOne",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Kogan",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Mobile Compia",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "NGM",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Navon",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "OK.",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Ozone",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.448Z"
+            },
+            {
+                "brand": "Polaroid",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Psion Teklogix",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Quantum",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Tesla",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Walton",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "WellcoM",
+                "brand_factor": 0.7,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Axioo",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Creative Labs",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Energizer",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Fairphone",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "JXD",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "KTC",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "M3Mobile",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Nomu",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "O+",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Okwap",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Pebble",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Point of View / TGT",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Razer",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Reliance",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Smartfren",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Wasabi Mango",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "ZUK",
+                "brand_factor": 0.6,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Airis",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Bang & Olufsen",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Cingular",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Corsair",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Denver",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Doov",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Doro",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Emobile",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "FIH",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Freelander",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "GPLUS",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Garmin",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Goclever",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Gome",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "HP Palm",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Honeywell",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "LANIX",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Monoprice",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Multilaser",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Omate",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Qihoo 360",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Siswoo",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Stuart Hughes",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "TMN",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "TORQ",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "WayteQ",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Zeblaze",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Zebra",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ziss",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "iOcean",
+                "brand_factor": 0.5,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Advan",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Athesi",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "BN",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "BungBungame",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Casper",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Centric",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Cincinnati Bell",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "ConCorde",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "CyberBank",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Everex",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Four Mobile",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Funkertech",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "GFive",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "GeCube",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Infomark",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Itel",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ivoomi",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Jolla",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Koolnee",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Krome",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "M-Horse",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Maze",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "MiTAC",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Michael Kors",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Mobvoi",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "NVIDIA / ST",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "NZXT",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Obi Worldphone",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Opticon",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "QMobile",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Qualcomm",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Rogers",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sico",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "SmartQ",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Swipe",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "TechFaith",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "UBiQUiO",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Unihertz",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Vido",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "iDO",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "lephone",
+                "brand_factor": 0.4,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "AXLE",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Akortek",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Akua Mobile",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Alcor",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "AnexTEK",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Arima",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Colors Mobile",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Coship",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Covia",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Daxian",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "FIC",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Faea",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "FarEasTone",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Fourier",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Hercules",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "ICD",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Intermec",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Jivi",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Lumigon",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Luna",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Macoox",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Mouse Computer",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Newman",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "ORSiO",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Onda",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "One Five",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Onkyo",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Optimus",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Overmax",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Planet Computers",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Plum Mobile",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Polytron",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Positivo",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Qool",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ramos",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ringing Bells",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "STB",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Safako",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sencor",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sonim",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "TAG Heuer",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Tonino Lamborghini",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Typhoon",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Umeox",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Unitech",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "VAIO",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Yezz",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Yota",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ziox",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "i-teq",
+                "brand_factor": 0.3,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "ARP Mobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Abocom",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Axia",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Bkav",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Bush Mobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "CipherLab",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Colorovo",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Connect3D",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Creative",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Dallab",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "DataWind",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Diesel",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Disney Mobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "E-TEN",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ericsson",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Eve",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Evolve",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "FPT",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Firefly Mobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Gamemax",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Gaoxinqi",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Garmin-Asus",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Geeksphone",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "GlocalMe",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Goophone",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Handspring",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Hanmac",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Iconbit",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ikimobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Jinga",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "K-Touch",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "KT",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Kaan",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Kobo",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Kodak",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Konrow",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Linshof",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "MAG",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "MWg",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Maxwest",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Mercury",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Mobiistar",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Montblanc",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "NDrive",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Neo",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Neonode",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Nextway",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Nothing",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Notion Ink",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Nubia",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Olivetti",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "PPTV",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "PalmOne",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Pepsi",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Pharos",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Pixelphone",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Poptel",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Realme",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Red Bull Mobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "SFR",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "STK",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sagem",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sendo",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Silent Circle",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Snail",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sunno",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Symbol",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Tatung",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "TrueSmart",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "UTStarcom",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Uhans",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Vector",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Viliv",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "VinSmart",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Willcom",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Xplore",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Yatay",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "iMI",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "iNO Mobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "izenMobile",
+                "brand_factor": 0.2,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "3D Power",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Abit",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Acorn",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "AdvanceTC",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Airo",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Akai",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Altek",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Appian",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ascent",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Azumi Mobile",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "BFG",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "BOE",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Babiken",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "BenQ-Siemens",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Billion",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Blaupunkt",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Boeing",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Boss",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Bsquare",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Camangi",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Celkon",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Changjiang",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Commodore",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Commtiva",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Compaq OEM",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "CompuLab",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Condor",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Coxion",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Creo",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "DAP",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Datang",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Dell OEM",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Diginnos Mobile",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Dough",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "EinsUndEins",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Emporio Armani",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Essential",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Exper",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Figgers",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Forsa",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Fujitsu-Siemens",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Fxtec",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "GrunMobile",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "HAUS",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "HOTT",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "HP / Compaq",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Hivision",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Honor",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "INQ",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Innos",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Interpad",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Inventec",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "JoinTech",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Joinhand",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "KNC",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Kate Spade",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Keecoo",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Kult",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Land Rover",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Leway",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Lobster",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Louis Vuitton",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Marshall",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Misfit",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Mobinnova",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Mogu",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Movado",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Neptune",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "New Balance",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "OKWU",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Optima",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Oregon Scientific",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Owen",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Pine",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Polar",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "PowerMagic",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Protruly",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "RED",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Redmi",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Royole",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sanyo",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Saygus",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sharper Image",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sierra Wireless",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Silicon-i",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Simvalley Mobile",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Sitronics",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Soulycin",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Swisscom",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Telekom",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Tencent",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Tesco",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "The Medical Phone",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Thuraya",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Trinity",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Trium",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Turing",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "UPQ",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Ubik",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "VCHOK",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Verzio",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Vitsmo",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Wanxin",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Wileyfox",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Yangtze",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "Zenum",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "ZyXel",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            },
+            {
+                "brand": "enTourage",
+                "brand_factor": 0.1,
+                "last_updated": "2023-11-10T14:55:42.449Z"
+            }
+        ]
+    }
+}

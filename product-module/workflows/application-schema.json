@@ -1,0 +1,64 @@
+[
+  {
+    "key": "pet_name",
+    "type": "text",
+    "label": "Pet name *",
+    "outputPath": "pet_name",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "pet_breed",
+    "type": "text",
+    "label": "Pet breed *",
+    "outputPath": "pet_breed",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "pet_colour",
+    "type": "text",
+    "label": "Pet colour *",
+    "outputPath": "pet_colour",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ]
+  },
+  {
+    "key": "pet_gender",
+    "type": "select",
+    "label": "Pet gender *",
+    "options": [
+      {
+        "label": "Male",
+        "value": "male"
+      },
+      {
+        "label": "Female",
+        "value": "female"
+      }
+    ],
+    "outputPath": "pet_gender",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ]
+  }
+]

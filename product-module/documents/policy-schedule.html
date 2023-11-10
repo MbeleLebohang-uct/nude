@@ -1,0 +1,206 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+      body {
+        font-family: Arial;
+        font-size: 10px;
+      }
+
+      .page {
+        width: 13cm;
+        min-height: 19.8cm;
+        page-break-after: always;
+        position: relative;
+      }
+
+      .page.no-break {
+        page-break-after: auto;
+      }
+
+      .header {
+        position: relative;
+        width: 100%;
+      }
+
+      .header img {
+        width: 60%;
+        padding-right: 32px;
+      }
+
+      .header div {
+        position: absolute;
+        right: 0;
+        top: 43%;
+        width: 33%;
+        font-size: 16px;
+        color: #406db0;
+        font-weight: bold;
+      }
+
+      .one-three-split {
+        line-height: 16px;
+        padding: 8px;
+        display: inline-block;
+        width: 100%;
+        background-color: #f4f4f4;
+        margin-bottom: 2px;
+      }
+
+      .one-three-split > :nth-child(1) {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        font-weight: bold;
+      }
+
+      .one-three-split > :nth-child(2) {
+        display: inline-block;
+        margin-left: 5%;
+        width: 60%;
+      }
+
+      .padded {
+        padding: 20px 20px 20px 0;
+      }
+
+      .stamp {
+        font-weight: bolder;
+        color: #a19d9a;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        z-index: 2;
+        text-align: center;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+      }
+
+      .stamp h1 {
+        font-size: 6rem;
+      }
+
+      .stamp h2 {
+        font-size: 2.5rem;
+      }
+
+      .footer > .footer-text {
+        position: absolute;
+        width: 60%;
+        bottom: 10;
+        text-align: left;
+        font-size: 7px;
+        color: #a19d9a;
+      }
+
+      strong {
+        color: #3fc881;
+      }
+
+      .petinsurance-logo {
+        content: url('https://storage.googleapis.com/root-production-public-client-images/root/pet_header_2.png');
+      }
+
+      .petinsurance-footer {
+        position: absolute;
+        content: url('https://storage.googleapis.com/root-production-public-client-images/root/pet_footer_7.png');
+        width: 50%;
+        right: 0;
+        bottom: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Page 1 starts -->
+    <div class="page 1 no-break">
+      {{#sandbox}}
+      <!-- Elements within this helper will only be included for policies issued on platform in sandbox mode -->
+      <div class="stamp">
+        <h1>- VOID -</h1>
+        <h2>for demo purposes only</h2>
+      </div>
+      {{/sandbox}}
+      <!-- Header -->
+      <div class="header">
+        <img class="petinsurance-logo" />
+        <div>POLICY SCHEDULE</div>
+      </div>
+      <!-- Main document body -->
+      <div class="padded" style="margin-bottom: 0; padding-bottom: 0">
+        <p>
+          Dogs have been man's best friend for over 14,000 years. Cats for
+          nearly 9,000. Your beloved furry friend is now covered!
+        </p>
+        <br />
+        <!-- Pet details -->
+        <p><strong>PET DETAILS</strong></p>
+        <div class="one-three-split">
+          <div>Policy Number</div>
+          <div>{{ policy.policy_number }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Pet's Name</div>
+          <div>{{ toStartCase policy.module.pet_name }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Pet's Gender</div>
+          <div>{{ toStartCase policy.module.pet_gender }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Pet's Birth Year</div>
+          <div>{{ policy.module.birth_year }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Pet's Breed</div>
+          <div>{{ toStartCase policy.module.pet_breed }}</div>
+        </div>
+        <br /><br />
+        <!-- Cover details -->
+        <p><strong>COVER DETAILS</strong></p>
+        <div class="one-three-split">
+          <div>Start Date</div>
+          <div>{{ dateFormat policy.start_date }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Total Sum Assured</div>
+          <div>{{ zarString policy.sum_assured }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Monthly Premium</div>
+          <div>{{ zarString policy.monthly_premium }}</div>
+        </div>
+        <div class="one-three-split">
+          <div>Payment Frequency</div>
+          <div>
+            Monthly on the {{ ordinalString policy.billing_day }} day of the
+            month
+          </div>
+        </div>
+        <br /><br />
+        <!-- Claims process -->
+        <p><strong>CLAIMS PROCESS</strong></p>
+        <p>
+          Please make sure that you submit your claim within 90 days from the
+          date of the occurrence of any event that could result in a claim
+          against this policy. You can lodge a claim on our website or by
+          calling us on 001-337-1337.
+        </p>
+      </div>
+      <!-- Footer -->
+      <div class="footer">
+        <div class="petinsurance-footer"></div>
+        <div class="footer-text">
+          Pet Insurance is a demo application by Root. The app source code is
+          open- sourced and MIT licensed. Pet Insurance is an unauthorised
+          financial services provider. FSP number 13371337. Just Nuisance House,
+          Simons Town, Western Cape, 7975.
+        </div>
+      </div>
+    </div>
+    <!-- Page 1 ends -->
+  </body>
+</html>

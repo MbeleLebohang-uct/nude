@@ -1,0 +1,232 @@
+[
+  {
+    "block": {
+      "key": "waiting_period_alert",
+      "type": "alert",
+      "color": "warning",
+      "markdown": "Date of treatment is within the waiting period."
+    },
+    "show_if": "{{ifCondition (dateDifference claim.block_states.date_of_treatment.value claim.policy.start_date measurement='days') '<' 90}}"
+  },
+  {
+    "block": {
+      "key": "claim_details_heading",
+      "type": "markdown",
+      "markdown": "### Claim details"
+    }
+  },
+  {
+    "block": {
+      "key": "claim_type",
+      "type": "dropdown",
+      "title": "Event type",
+      "options": [
+        {
+          "key": "accident",
+          "value": "Accident"
+        },
+        {
+          "key": "illness",
+          "value": "Illness"
+        },
+        {
+          "key": "checkup",
+          "value": "Check-up"
+        }
+      ]
+    }
+  },
+  {
+    "block": {
+      "key": "accident_event",
+      "type": "input.paragraph",
+      "title": "Description of accident"
+    },
+    "show_if": "{{ifCondition claim.block_states.claim_type.option_key '===' 'accident'}}"
+  },
+  {
+    "block": {
+      "key": "date_of_first_clinical_signs",
+      "type": "input.date",
+      "title": "Date first showed clinical signs"
+    },
+    "show_if": "{{ifCondition claim.block_states.claim_type.option_key '===' 'illness'}}"
+  },
+  {
+    "block": {
+      "key": "medical_diagnosis",
+      "type": "input.text",
+      "title": "Medical diagnosis"
+    },
+    "show_if": "{{ifCondition claim.block_states.claim_type.option_key '===' 'illness'}}"
+  },
+  {
+    "block": {
+      "key": "condition_continuation",
+      "type": "radio",
+      "title": "Is this a continuation of a condition that existed before the treatment date?",
+      "options": [
+        {
+          "key": "no",
+          "value": "No"
+        },
+        {
+          "key": "yes",
+          "value": "Yes"
+        }
+      ],
+      "default_value": "No"
+    },
+    "show_if": "{{ifCondition claim.block_states.claim_type.option_key '===' 'illness'}}"
+  },
+  {
+    "block": {
+      "key": "hereditary_condition",
+      "type": "radio",
+      "title": "Is this a hereditary condition?",
+      "options": [
+        {
+          "key": "no",
+          "value": "No"
+        },
+        {
+          "key": "yes",
+          "value": "Yes"
+        }
+      ],
+      "default_value": "No"
+    },
+    "show_if": "{{ifCondition claim.block_states.claim_type.option_key '===' 'illness'}}"
+  },
+  {
+    "block": {
+      "key": "congenital_condition",
+      "type": "radio",
+      "title": "Is this a congenital condition?",
+      "options": [
+        {
+          "key": "no",
+          "value": "No"
+        },
+        {
+          "key": "yes",
+          "value": "Yes"
+        }
+      ],
+      "default_value": "No"
+    },
+    "show_if": "{{ifCondition claim.block_states.claim_type.option_key '===' 'illness'}}"
+  },
+  {
+    "block": {
+      "key": "chronic_treatment",
+      "type": "radio",
+      "title": "Is the treatment chronic?",
+      "options": [
+        {
+          "key": "no",
+          "value": "No"
+        },
+        {
+          "key": "yes",
+          "value": "Yes"
+        }
+      ],
+      "default_value": "No"
+    },
+    "show_if": "{{ifCondition (ifCondition claim.block_states.claim_type.option_key '===' 'accident') '||' (ifCondition claim.block_states.claim_type.option_key '===' 'illness')}}"
+  },
+  {
+    "block": {
+      "key": "date_of_treatment",
+      "type": "input.date",
+      "title": "Date of first treatment"
+    }
+  },
+  {
+    "block": {
+      "key": "practice_name",
+      "type": "input.text",
+      "title": "Practice name"
+    }
+  },
+  {
+    "block": {
+      "key": "pet_admitted_at_practice",
+      "type": "radio",
+      "title": "Was the pet admitted at the practice?",
+      "options": [
+        {
+          "key": "no",
+          "value": "No"
+        },
+        {
+          "key": "yes",
+          "value": "Yes"
+        }
+      ],
+      "default_value": "No"
+    },
+    "show_if": "{{ifCondition (ifCondition claim.block_states.claim_type.option_key '===' 'accident') '||' (ifCondition claim.block_states.claim_type.option_key '===' 'illness')}}"
+  },
+  {
+    "block": {
+      "key": "additional_notes",
+      "type": "input.paragraph",
+      "title": "Additional vet notes"
+    }
+  },
+  {
+    "block": {
+      "key": "claim_payout_divider",
+      "type": "divider"
+    }
+  },
+  {
+    "block": {
+      "key": "payout_details",
+      "type": "markdown",
+      "markdown": "### Payout details"
+    }
+  },
+  {
+    "block": {
+      "key": "payout_amount",
+      "max": 3000000,
+      "type": "input.currency",
+      "title": "Payout amount",
+      "isoCode": "ZAR"
+    }
+  },
+  {
+    "block": {
+      "key": "claim_payout_request",
+      "type": "payout_request",
+      "payee": {
+        "type": "policyholder",
+        "amount": "{{#ifIsDefined claim.block_states.payout_amount.value}}{{claim.block_states.payout_amount.value}}{{else}}0{{/ifIsDefined}}",
+        "percentage": 100,
+        "payment_details": {
+          "type": "eft",
+          "details": {
+            "bank_name": "{{ claim.policy.beneficiaries.0.payment_details.details.bank_name }}",
+            "branch_code": "{{ claim.policy.beneficiaries.0.payment_details.details.branch_code }}",
+            "account_type": "{{ claim.policy.beneficiaries.0.payment_details.details.account_type }}",
+            "account_number": "{{ claim.policy.beneficiaries.0.payment_details.details.account_number }}"
+          }
+        },
+        "policyholder_id": "{{ claim.policy.policyholder_id }}"
+      },
+      "title": "Claim payout",
+      "amount": "{{ claim.block_states.payout_amount.value }}",
+      "description": "Details of payment to be made to policyholder"
+    },
+    "disabled_if": "{{#if claim.approval_status '!==' approved}}"
+  },
+  {
+    "block": {
+      "key": "claim_details_divider",
+      "type": "divider"
+    }
+  }
+]

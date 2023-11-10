@@ -1,0 +1,13 @@
+{
+  "include": [
+    "../**/*"
+  ],
+  "compilerOptions": {
+    "checkJs": true,
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "target": "ES2018"
+  }
+}

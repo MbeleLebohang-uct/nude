@@ -1,0 +1,202 @@
+{
+  "policy": {
+    "policy_id": "dd1f2974-af7e-4caf-8105-2b093416d8f0",
+    "scheme_type": "individual",
+    "created_at": "2017-10-05T18:40:47.831Z",
+    "created_by": {
+      "type": "user",
+      "id": "00000000-0000-0000-0000-000000000001"
+    },
+    "policy_number": "1HFCT1CDBJ",
+    "policyholder_id": "bf1ada91-eecb-4f47-9bfa-1258bb1e0055",
+    "package_name": "Example package name",
+    "sum_assured": 1199900,
+    "base_premium": 50000,
+    "monthly_premium": 50000,
+    "billing_amount": 50000,
+    "billing_frequency": "monthly",
+    "billing_day": 1,
+    "next_billing_date": "2023-12-01T00:00:00.000Z",
+    "start_date": "2020-09-18T12:46:58.831Z",
+    "end_date": "2050-10-05T18:40:47.831Z",
+    "cancelled_at": null,
+    "reason_cancelled": null,
+    "app_data": null,
+    "module": {
+      "type": "example_module_type",
+      "key": "value"
+    },
+    "product_module_id": "ae2012f6-964f-4456-b90e-afb25aa99b54",
+    "product_module_definition_id": "02e3d37d-05b7-4b88-9c64-e40766e64217",
+    "beneficiaries": [
+      {
+        "beneficiary_id": "dac0da11-cf95-47f5-af07-b45ecf546baa",
+        "policyholder_id": "e3ea736e-fb3e-4628-90d2-72eae2772c25",
+        "first_name": "Bachman",
+        "last_name": "Erlich",
+        "id": {
+          "type": "id",
+          "number": "6801015800084",
+          "country": "ZA"
+        },
+        "date_of_birth": "1994-10-07",
+        "percentage": 90,
+        "email": "erlich@aviato.com",
+        "relationship": "policyholder"
+      }
+    ],
+    "current_version": 1,
+    "schedule_file_id": "e7914a84-2a43-11e9-aba7-3b100b403d3d",
+    "policy_schedule_uri": "https://sandbox.root.co.za/v1/insurance/policies/dd1f2974-af7e-4caf-8105-2b093416d8f0/schedule/schedule_latest.pdf",
+    "schedule_versions": [
+      {
+        "version": 1,
+        "created_at": "2017-10-05T18:40:47.831Z"
+      }
+    ],
+    "terms_file_id": "68c8b6e6-f484-11ed-a05b-0242ac120003",
+    "terms_uri": "https://sandbox.root.co.za/v1/insurance/policies/dd1f2974-af7e-4caf-8105-2b093416d8f0/terms/terms.pdf",
+    "supplementary_terms_files": [],
+    "policy_welcome_letter_file_id": "528e1f96-bc2c-4cc7-ba1a-b07692f17f20",
+    "policy_welcome_letter_uri": "https://sandbox.root.co.za/v1/insurance/policies/dd1f2974-af7e-4caf-8105-2b093416d8f0/welcome-letter/welcome_letter.pdf",
+    "policy_certificate_file_id": "272ee81d-2638-438e-9d58-d296992252db",
+    "policy_certificate_uri": "https://sandbox.root.co.za/v1/insurance/policies/dd1f2974-af7e-4caf-8105-2b093416d8f0/certificate/certificate.pdf",
+    "policy_anniversary_file_id": "7e6d32c4-f484-11ed-a05b-0242ac120003",
+    "claim_ids": [],
+    "complaint_ids": [],
+    "status": "active",
+    "balance": 0,
+    "currency": "ZAR",
+    "payment_method_id": "0157b955-8ffd-4a14-8625-8b2787a1684c",
+    "status_updated_at": "2020-01-05T18:40:47.831Z",
+    "updated_at": "2020-01-05T18:40:47.831Z",
+    "covered_people": [],
+    "charges": []
+  },
+  "policyholder": {
+    "policyholder_id": "bf1ada91-eecb-4f47-9bfa-1258bb1e0055",
+    "type": "individual",
+    "initials": "E",
+    "first_name": "Erlich",
+    "last_name": "Bachman",
+    "id": {
+      "type": "id",
+      "number": "6801015800084",
+      "country": "ZA"
+    },
+    "email": "erlich@aviato.com",
+    "cellphone": "+27823048184",
+    "phone_other": null,
+    "gender": "male",
+    "created_at": "2017-10-12T15:47:34.834Z",
+    "app_data": {
+      "key": "value"
+    },
+    "policy_ids": [
+      "dd1f2974-af7e-4caf-8105-2b093416d8f0"
+    ],
+    "created_by": {
+      "type": "user",
+      "id": "00000000-0000-0000-0000-000000000001"
+    },
+    "address": {
+      "line_1": "5230 Penfield Avenue",
+      "suburb": "Woodland Hills",
+      "city": "Los Angeles",
+      "country": "US",
+      "area_code": "CA 91364"
+    },
+    "updated_at": "2017-10-12T15:47:34.834Z"
+  },
+  "application": {
+    "application_id": "dd1f2974-af7e-4caf-8105-2b093416d8f0",
+    "policyholder_id": "bf1ada91-eecb-4f47-9bfa-1258bb1e0055",
+    "payment_method_id": "0157b955-8ffd-4a14-8625-8b2787a1684c",
+    "package_name": "Example package name",
+    "sum_assured": 1199900,
+    "monthly_premium": 50000,
+    "base_premium": 50000,
+    "module": {
+      "type": "example_module_type",
+      "key": "value"
+    },
+    "created_at": "2017-10-05T18:40:47.831Z",
+    "created_by": {
+      "type": "user",
+      "id": "00000000-0000-0000-0000-000000000001"
+    },
+    "currency": "ZAR",
+    "product_module_definition_id": "02e3d37d-05b7-4b88-9c64-e40766e64217",
+    "billing_frequency": "monthly",
+    "status": "pending",
+    "beneficiaries": [
+      {
+        "beneficiary_id": "dac0da11-cf95-47f5-af07-b45ecf546baa",
+        "policyholder_id": "e3ea736e-fb3e-4628-90d2-72eae2772c25",
+        "first_name": "Bachman",
+        "last_name": "Erlich",
+        "id": {
+          "type": "id",
+          "number": "6801015800084",
+          "country": "ZA"
+        },
+        "date_of_birth": "1994-10-07",
+        "percentage": 90,
+        "email": "erlich@aviato.com",
+        "relationship": "policyholder"
+      }
+    ]
+  },
+  "payment_method": {
+    "payment_method_id": "0157b955-8ffd-4a14-8625-8b2787a1684c",
+    "type": "debit_order",
+    "created_at": "2021-05-04T18:40:47.831Z",
+    "organization_id": "5b87186a-4215-46cd-9a43-b0150dc9818b",
+    "policyholder_id": "bf1ada91-eecb-4f47-9bfa-1258bb1e0055",
+    "policyholder": {
+      "policyholder_id": "bf1ada91-eecb-4f47-9bfa-1258bb1e0055",
+      "type": "individual",
+      "initials": "E",
+      "first_name": "Erlich",
+      "last_name": "Bachman",
+      "id": {
+        "type": "id",
+        "number": "6801015800084",
+        "country": "ZA"
+      },
+      "email": "erlich@aviato.com",
+      "cellphone": "+27823048184",
+      "phone_other": null,
+      "gender": "male",
+      "created_at": "2017-10-12T15:47:34.834Z",
+      "app_data": {
+        "key": "value"
+      },
+      "policy_ids": [
+        "dd1f2974-af7e-4caf-8105-2b093416d8f0"
+      ],
+      "created_by": {
+        "type": "user",
+        "id": "00000000-0000-0000-0000-000000000001"
+      },
+      "address": {
+        "line_1": "5230 Penfield Avenue",
+        "suburb": "Woodland Hills",
+        "city": "Los Angeles",
+        "country": "US",
+        "area_code": "CA 91364"
+      },
+      "updated_at": "2017-10-12T15:47:34.834Z"
+    },
+    "updated_at": "2021-05-04T18:40:47.831Z",
+    "bank_details": {
+      "account_holder": "E Bachman",
+      "bank": "absa",
+      "branch_code": "123456",
+      "account_number": "123456",
+      "account_type": "savings",
+      "banv_status": "verified",
+      "payment_method_id": "0157b955-8ffd-4a14-8625-8b2787a1684c"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "status": 200,
+  "message": "Product details retrieved successfully",
+  "data": {
+      "type": "detail",
+      "language": "en",
+      "category": "Smartwatches",
+      "items": [
+          {
+              "product": {
+                  "dedupe": "Apple Watch 42mm A1554",
+                  "is_translated": true,
+                  "brand": "Apple",
+                  "manufacturer": "Quanta Computer",
+                  "model": "Apple Watch 42mm",
+                  "version": "A1554",
+                  "category": "Smartwatches",
+                  "alias": "Apple Watch 1,2",
+                  "id": "63e960cf28a94f6e179fb283"
+              },
+              "key_aspects": {
+                  "release_date": "2015-04-24",
+                  "os": "Apple iOS / iPadOS, Apple Watch OS 1.0",
+                  "processor": "Apple S1 APL0778 (S7002)",
+                  "storage": "8 GB"
+              },
+              "image": {
+                  "front": "https://i-techspecs-io.s3.amazonaws.com/Apple_Watch_42mmA1554_front_front1.png",
+                  "back": "https://i-techspecs-io.s3.amazonaws.com/Apple_Watch_42mmA1554_back_back1.png"
+              },
+              "date": {
+                  "released": "2015-04-24"
+              },
+              "design": {
+                  "body": {
+                      "height": "35.9 mm, 1.41 inch",
+                      "width": "42 mm, 1.65 inch",
+                      "weight": "50 g, 1.76 ounces",
+                      "thickness": "10.5 mm, 0.41 inches",
+                      "ip_rating": "IPX7",
+                      "colors": "18-karat Rose Gold/White, Midnight Blue Buckle 18-karat Yellow Gold/Black, Black Buckle"
+                  },
+                  "peripheral": {
+                      "peripheral": "Pressable rotary scroll wheel"
+                  }
+              },
+              "display": {
+                  "type": "Retina Display",
+                  "diagonal": "39.78 mm, 1.6 inch",
+                  "resolution_(h_x_w)": "312x390",
+                  "pixel_density": "319 PPI",
+                  "width": "24.85 mm, 0.98 inch",
+                  "height": "31.06 mm, 1.22 inch",
+                  "illumination": "Self-illuminating",
+                  "dynamic_range": "8 bit",
+                  "pixel_size": "0.07965 mm/pixel",
+                  "color_depth": "24 bit",
+                  "subpixels": "The data will be added shortly",
+                  "number_of_colors": "16.8M",
+                  "screen_to_body_ratio": "51.2%",
+                  "bezel_width": "17.15 mm, 0.68 inch(es)",
+                  "lcd_mode": "The data will be added shortly",
+                  "touchpoints": "Multi touch",
+                  "glass": "Sapphire Glass",
+                  "touch_screen_type": "Capacitive"
+              },
+              "inside": {
+                  "software": {
+                      "os": "Apple iOS / iPadOS",
+                      "os_version": "Apple Watch OS 1.0"
+                  },
+                  "processor": {
+                      "cpu": "Apple S1 APL0778 (S7002)",
+                      "cpu_clock_speed": "520 MHz",
+                      "gpu": "PowerVR SGX543"
+                  },
+                  "storage": {
+                      "type": "Flash EEPROM",
+                      "capacity": "8 GB"
+                  },
+                  "audio": {
+                      "channel": "stereo",
+                      "microphone": "mono"
+                  },
+                  "cellular": {
+                      "generation": "WiFi",
+                      "sim_type": "No SIM"
+                  },
+                  "wireless": {
+                      "bluetooth_version": " 4.0",
+                      "wifi": "IEEE 802.11b, IEEE 802.11g, IEEE 802.11n",
+                      "experiences": "FM Radio,  NFC"
+                  },
+                  "battery": {
+                      "type": "Lithium-ion polymer (LiPo) — 1 cell",
+                      "cell_i": "250 mAh",
+                      "capacity": "250 mAh",
+                      "voltage": "3.78 Volts",
+                      "energy": "0.95 Wh",
+                      "wireless_charging": "Present",
+                      "style": "Non-removable"
+                  },
+                  "location": {
+                      "additional_features": "GPS"
+                  },
+                  "sensors": {
+                      "sensors": "Barometer, Heart rate sensor, Light intensity sensor,  Accelerometer,  Gyroscope"
+                  }
+              },
+              "No": {
+                  "Output": "Audio Output",
+                  "Expansion": "Expandable Storage",
+                  "GPS": "GPS",
+                  "Sensor": "Back Camera,Front Camera",
+                  "Flash": "Camera Flash",
+                  "Focus": "",
+                  "AV_Out": "AV Out",
+                  "SIM_Frequencies": "SIM Slot",
+                  "SIM_II_Frequencies": "Dual SIM",
+                  "USB_Version": "USB Port",
+                  "USB_Type": "USB Port",
+                  "FM_Radio": "FM Radio"
+              }
+          }
+      ]
+  }
+}

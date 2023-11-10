@@ -1,0 +1,398 @@
+{
+  "Function for validating incoming quote data": {
+    "prefix": "validateQuoteRequest",
+    "body": [
+      "function validateQuoteRequest(data) {",
+      "    return Joi.validate(data, Joi.object().keys({",
+      "      ${1:}: ${2:}",
+      "    })",
+      "  }"
+    ],
+    "description": "Function for validating incoming quote data"
+  },
+  "Function for applying an alteration package to a policy": {
+    "prefix": "applyAlteration",
+    "body": [
+      "function applyAlteration({ alteration_hook_key, policy, policyholder, alteration_package }) {",
+      "  if (alteration_hook_key === 'hook_1') {",
+      "    return new AlteredPolicy({",
+      "        package_name: ${1:application.package_name},",
+      "        sum_assured: ${2:application.sum_assured},",
+      "        base_premium: ${3:application.base_premium},",
+      "        monthly_premium: ${4:application.monthly_premium},",
+      "        start_date: ${5:moment()},",
+      "        end_date: ${6:moment().add(1, 'year')},",
+      "        module: { ",
+      "          ${7:...policy.module, ...alteration_package.module }",
+      "        },",
+      "        charges: ${8:[]},",
+      "    });",
+      "  }",
+      "}"
+    ],
+    "description": "Function for applying an alteration package to a policy"
+  },
+  "Function for returning a quote package": {
+    "prefix": "getQuote",
+    "body": [
+      "function getQuote(data) {",
+      "    return new QuotePackage({",
+      "        package_name: ${1:}",
+      "        sum_assured: ${2:},",
+      "        base_premium: ${3:},",
+      "        suggested_premium: ${4:},",
+      "        input_data: ${5:data},",
+      "        module: {",
+      "            ${6:}: ${7:}",
+      "        },",
+      "        billing_frequency: ${8:}",
+      "    });",
+      "}"
+    ],
+    "description": "Function for returning a quote package"
+  },
+  "Function for validating incoming application data": {
+    "prefix": "validateApplicationRequest",
+    "body": [
+      "function validateApplicationRequest(data) {",
+      "    return Joi.validate(data, Joi.object().keys({",
+      "      ${1:}: ${2:}",
+      "    })",
+      "}"
+    ],
+    "description": "Function for validating incoming application data"
+  },
+  "Function for returning an application": {
+    "prefix": "getApplication",
+    "body": [
+      "  function getApplication(data) {",
+      "    return new Application({",
+      "        package_name: ${1: quotePackage.package_name},",
+      "        sum_assured: ${2: quotePackage.sum_assured},",
+      "        base_premium: ${3: quotePackage.base_premium},",
+      "        monthly_premium: ${4: quotePackage.monthly_premium},",
+      "        input_data: ${5:data},",
+      "        module: {",
+      "            ${6:}: ${7:}",
+      "        },",
+      "    });",
+      "}"
+    ],
+    "description": "Function for returning an application"
+  },
+  "Function for returning a policy": {
+    "prefix": "getPolicy",
+    "body": [
+      "function getPolicy(application, policyholder) {",
+      "    return new Policy({",
+      "        package_name: ${1: application.package_name},",
+      "        sum_assured: ${2: application.sum_assured},",
+      "        base_premium: ${3: application.monthly_premium},",
+      "        monthly_premium: ${4: application.monthly_premium},",
+      "        start_date: ${5:moment()},",
+      "        end_date: ${6:moment().add(1, 'year')},",
+      "        module: { ",
+      "          ...application.module,",
+      "          ${7:}: ${8:}",
+      "        },",
+      "        input_data: ${9:data},",
+      "        beneficiaries: ${10: undefined},",
+      "        members: ${11: undefined},",
+      "        charges: ${12:[]},",
+      "  });",
+      "}"
+    ],
+    "description": "Function for returning a policy"
+  },
+  "Function for requoting a policy": {
+    "prefix": "requotePolicy",
+    "body": [
+      "function requotePolicy(policy, policyholder, application) {",
+      "  return new RequotePolicy({",
+      "      package_name: ${1:application.package_name},",
+      "      sum_assured: ${2:application.sum_assured},",
+      "      base_premium: ${3:application.base_premium},",
+      "      monthly_premium: ${4:application.monthly_premium},",
+      "      start_date: ${5:moment()},",
+      "      end_date: ${6:moment().add(1, 'year')},",
+      "      charges: ${7:[]},",
+      "      module: { ",
+      "        ${8:...application.module}",
+      "      },",
+      "  });",
+      "}"
+    ],
+    "description": "Function for requoting a policy"
+  },
+  "Function for returning reactiviation options": {
+    "prefix": "reactivatePolicy",
+    "body": [
+      "function reactivatePolicy(policy, policyholder, type) {",
+      "        switch (type) {",
+      "          case 'recommencement':",
+      "            ${1: recommencement logic}",
+      "            break;",
+      "          case 'reinstatement':",
+      "            ${2: reinstatement logic}",
+      "            break;",
+      "          default:",
+      "      ",
+      "            break;",
+      "        }",
+      "      ",
+      "        return policy;",
+      "      }      "
+    ],
+    "description": "Function for returning reactiviation options"
+  },
+  "Function for validating incoming claim data": {
+    "prefix": "validateClaimRequest",
+    "body": [
+      "function validateClaimRequest(data) {",
+      "  return Joi.validate(",
+      "    data,",
+      "    Joi.object().keys({",
+      "      ${1:}: ${2:}",
+      "    }),",
+      "  );",
+      "}"
+    ],
+    "description": "Function for validating incoming claim data"
+  },
+  "Function for updating policy members data": {
+    "prefix": "policyMembersUpdated",
+    "body": [
+      "function policyMembersUpdated(policy, members) {",
+      "  return new ProductModulePolicyMembersUpdatedChanges({",
+      "    monthly_premium: ${1: },",
+      "    module: {",
+      "      ${2:}: ${3:}",
+      "    }",
+      "  });",
+      "}"
+    ],
+    "description": "Function for updating policy members data"
+  },
+  "Function for updating policy member module data": {
+    "prefix": "getMemberModuleChanges",
+    "body": [
+      "function getMemberModuleChanges(policy, inputMembersOrMembers) {",
+      "    return new MemberModuleChange({",
+      "      member_id: ${1: },",
+      "      module: ${2: },",
+      "      end_date: ${3: undefined},",
+      "    });",
+      "  });",
+      "};"
+    ],
+    "description": "Function for updating policy member module data"
+  },
+  "Function for returning a members quote package": {
+    "prefix": "getMemberQuote",
+    "body": [
+      "function getMemberQuote(data, policyholder, policy) {",
+      "  return new MemberQuotePackage({",
+      "    monthly_premium: ${1: },",
+      "    module: ${2: },",
+      "  });",
+      "}"
+    ],
+    "description": "Function for returning a members quote package"
+  },
+  "Function for returning before policy reactivated, policy module data updates": {
+    "prefix": "beforePolicyReactivated",
+    "body": [
+      "function beforePolicyReactivated({ policy, reactivationOption }) {",
+      "    return [",
+      "      {",
+      "        name: ${1:} ,",
+      "        data: ${2:},",
+      "      },",
+      "    ];",
+      "  }"
+    ],
+    "description": "Function for returning before policy reactivated, policy module data updates"
+  },
+  "Function for returning after policy reactivated, policy module data updates": {
+    "prefix": "afterPolicyReactivated",
+    "body": [
+      "function afterPolicyReactivated({ policy, reactivationOption }) {",
+      "  return reactivationOption.type === 'reinstatement'",
+      "    ? [",
+      "      {",
+      "        name: ${1:},",
+      "        data: {",
+      "          ${2: has_been_reinstated} : ${3: },",
+      "        },",
+      "      },",
+      "    ]",
+      "    : [",
+      "      {",
+      "        name: ${4:} ,",
+      "        data: {",
+      "          ${5: has_been_recommenced} : ${6: },",
+      "        },",
+      "      },",
+      "    ];",
+      "}"
+    ],
+    "description": "Function for returning after policy reactivated, policy module data updates"
+  },
+  "Function for returning before payment coupon created": {
+    "prefix": "beforePaymentCouponCreated",
+    "body": [
+      "function beforePaymentCouponCreated ({ policy, newPaymentCoupons }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "};"
+    ],
+    "description": "Function for returning before payment coupon created"
+  },
+  "Function for returning after payment coupon created": {
+    "prefix": "afterPaymentCouponCreated",
+    "body": [
+      "function afterPaymentCouponCreated ({ policy, paymentCoupons }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "};"
+    ],
+    "description": "Function for returning after payment coupon created"
+  },
+  "Function for returning after payment coupon cancelled": {
+    "prefix": "afterPaymentCouponCancelled",
+    "body": [
+      "function afterPaymentCouponCancelled ({ policy, paymentCoupons }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "};"
+    ],
+    "description": "Function for returning after payment coupon cancelled"
+  },
+  "Function for returning after payment coupon redeemed": {
+    "prefix": "afterPaymentCouponRedeemed",
+    "body": [
+      "function afterPaymentCouponRedeemed ({ policy, paymentCoupons }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "};"
+    ],
+    "description": "Function for returning after payment coupon redeemed"
+  },
+  "Function for returning after payment coupon reversed": {
+    "prefix": "afterPaymentCouponReversed",
+    "body": [
+      "function afterPaymentCouponReversed ({ policy, paymentCoupons }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "};"
+    ],
+    "description": "Function for returning after payment coupon reversed"
+  },
+  "Function for updating payment success on policy module data": {
+    "prefix": "afterPaymentSuccess",
+    "body": [
+      "async function afterPaymentSuccess({ policy, payment }) {",
+      "  const payments = await root.policies.getPolicyPayments(policy.policy_id);",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "}"
+    ],
+    "description": "Function for updating payment success on policy module data"
+  },
+  "Function for updating payment failed on policy module data": {
+    "prefix": "afterPaymentFailed",
+    "body": [
+      "async function afterPaymentFailed({ policy, payment }) {",
+      "  const payments = await root.policies.getPolicyPayments(policy.policy_id);",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "}"
+    ],
+    "description": "Function for updating payment failed on policy module data"
+  },
+  "Function for updating payment reversed on policy module data": {
+    "prefix": "afterPaymentReversed",
+    "body": [
+      "async function afterPaymentReversed({ policy, payment }) {",
+      "  const payments = await root.policies.getPolicyPayments(policy.policy_id);",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "}"
+    ],
+    "description": "Function for updating payment reversed on policy module data"
+  },
+  "Function for updating not taken up on policy module data": {
+    "prefix": "afterPolicyNotTakenUp",
+    "body": [
+      "async function afterPolicyNotTakenUp({ policy }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: }",
+      "    },",
+      "  ];",
+      "}  "
+    ],
+    "description": "Function for updating not taken up on policy module data"
+  },
+  "Function for updating claim linked on policy module data": {
+    "prefix": "afterPolicyLinkedToClaim",
+    "body": [
+      "function afterPolicyLinkedToClaim({ policy, claim }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: }",
+      "    },",
+      "  ];",
+      "}"
+    ],
+    "description": "Function for updating claim linked on policy module data"
+  },
+  "Function for updating claim approved on policy module data": {
+    "prefix": "afterClaimApproved",
+    "body": [
+      "async function afterClaimApproved({ policy, payment }) {",
+      "  return [",
+      "    {",
+      "      name: ${1: },",
+      "      data: ${2: },",
+      "    },",
+      "  ];",
+      "}"
+    ],
+    "description": "Function for updating claim approved on policy module data"
+  }
+}
