@@ -2361,10 +2361,6 @@
           {
             "label": "Northern Cape",
             "value": "northern_cape"
-          },
-          {
-            "label": "Worldwide",
-            "value": "worldwide"
           }
         ],
         "displayConditions": [

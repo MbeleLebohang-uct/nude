@@ -16,7 +16,7 @@ const deviceDetailsValidation = Joi.object().keys({
   province: Joi.when('worldwide_cover', {
     is: false,
     then: Joi.string()
-      .valid(Object.keys(GEOGRAPHICAL_FACTORS_BY_PROVINCE))
+      .valid(Object.keys(GEOGRAPHICAL_FACTORS_BY_PROVINCE).filter((key) => key !== 'worldwide'))
       .required(),
     otherwise: Joi.forbidden().allow(null),
   }),

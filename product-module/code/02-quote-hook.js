@@ -58,8 +58,8 @@ const getQuote = (data) => {
   const yearlyQuotePackage = new QuotePackage({
     package_name: 'proteas_nude_insurance',
     sum_assured: sumAssured,
-    base_premium: Math.round(basePremium*12*YEARLY_PREMIUM_DISCOUNT),
-    suggested_premium: Math.round(premium*12*YEARLY_PREMIUM_DISCOUNT),
+    base_premium: Math.round(basePremium*YEARLY_PREMIUM_DISCOUNT),
+    suggested_premium: Math.round(premium*YEARLY_PREMIUM_DISCOUNT),
     billing_frequency: 'yearly', 
     module: moduleData,
     input_data: { ...data },
