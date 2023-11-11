@@ -13,6 +13,22 @@
     "outputPath": "date_of_birth"
   },
   {
+    "key": "axcess_amount",
+    "type": "currency",
+    "label": "Axcess amount",
+    "validators": [
+      {
+        "validation": {
+          "type": "required"
+        }
+      }
+    ],
+    "outputPath": "axcess_amount",
+    "props": {
+      "prefix": "R"
+    }
+  },
+  {
     "type": "section-header",
     "label": "Covered devices",
     "props": {
