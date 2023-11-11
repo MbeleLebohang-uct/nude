@@ -13,55 +13,12 @@
     "outputPath": "date_of_birth"
   },
   {
-    "key": "province",
-    "type": "select",
-    "label": "Province",
-    "validators": [
-      {
-        "validation": {
-          "type": "required"
-        }
-      }
-    ],
-    "outputPath": "province",
-    "options": [
-      {
-        "label": "Gauteng",
-        "value": "gauteng"
-      },
-      {
-        "label": "Kwazulu Natal",
-        "value": "kwazulu_natal"
-      },
-      {
-        "label": "Eastern Cape",
-        "value": "eastern_cape"
-      },
-      {
-        "label": "Mpumalanga",
-        "value": "mpumalanga"
-      },
-      {
-        "label": "Limpopo",
-        "value": "limpopo"
-      },
-      {
-        "label": "Western Cape",
-        "value": "western_cape"
-      },
-      {
-        "label": "North West",
-        "value": "north_west"
-      },
-      {
-        "label": "Free State",
-        "value": "free_state"
-      },
-      {
-        "label": "Northern Cape",
-        "value": "northern_cape"
-      }
-    ]
+    "type": "section-header",
+    "label": "Covered devices",
+    "props": {
+      "headingTag": "h5",
+      "fontWeight": "bold"
+    }
   },
   {
     "type": "list",
@@ -74,6 +31,10 @@
       }
     ],
     "components": [
+      {
+        "key": "covered_devices_horizontal_line",
+        "type": "horizontal-line"
+      },
       {
         "key": "brand",
         "type": "select",
@@ -773,6 +734,10 @@
           {
             "label": "Nixeus",
             "value": "Nixeus"
+          },
+          {
+            "label": "Eufy",
+            "value": "Eufy"
           },
           {
             "label": "Smartisan",
@@ -2313,6 +2278,10 @@
           {
             "label": "En Tourage",
             "value": "enTourage"
+          },
+          {
+            "label": "Other",
+            "value": "Other"
           }
         ]
       },
@@ -2325,6 +2294,68 @@
             "validation": {
               "type": "required"
             }
+          }
+        ]
+      },
+      {
+        "key": "province_then",
+        "type": "select",
+        "label": "Province",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "outputPath": "province",
+        "options": [
+          {
+            "label": "Gauteng",
+            "value": "gauteng"
+          },
+          {
+            "label": "Kwazulu Natal",
+            "value": "kwazulu_natal"
+          },
+          {
+            "label": "Eastern Cape",
+            "value": "eastern_cape"
+          },
+          {
+            "label": "Mpumalanga",
+            "value": "mpumalanga"
+          },
+          {
+            "label": "Limpopo",
+            "value": "limpopo"
+          },
+          {
+            "label": "Western Cape",
+            "value": "western_cape"
+          },
+          {
+            "label": "North West",
+            "value": "north_west"
+          },
+          {
+            "label": "Free State",
+            "value": "free_state"
+          },
+          {
+            "label": "Northern Cape",
+            "value": "northern_cape"
+          },
+          {
+            "label": "Worldwide",
+            "value": "worldwide"
+          }
+        ],
+        "displayConditions": [
+          {
+            "path": "worldwide_cover",
+            "value": false,
+            "condition": "==="
           }
         ]
       },
@@ -2561,6 +2592,26 @@
         ]
       },
       {
+        "key": "brand_other_then",
+        "type": "text",
+        "label": "Brand other",
+        "validators": [
+          {
+            "validation": {
+              "type": "required"
+            }
+          }
+        ],
+        "outputPath": "brand_other",
+        "displayConditions": [
+          {
+            "path": "model",
+            "value": "Other",
+            "condition": "==="
+          }
+        ]
+      },
+      {
         "key": "model_other_then",
         "type": "text",
         "label": "Model other",
@@ -2613,6 +2664,6 @@
       "addButtonLabel": "Add"
     },
     "minNumber": 1,
-    "maxNumber": 5
+    "maxNumber": 10
   }
 ]

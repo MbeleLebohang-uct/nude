@@ -13,7 +13,7 @@ describe('Policy issue flow', function () {
       applicationData,
       undefined,
       // @ts-ignore
-      quotePackage,
+      quotePackage[0],
     );
   });
 
@@ -24,8 +24,9 @@ describe('Policy issue flow', function () {
       expect(validationResult.error).to.equal(null);
     });
 
-    it('should return a suggested premium of <R12.34> (in cents)', function () {
-      expect(quotePackage.suggested_premium).to.equal(7125); // cents
+    it('should return a suggested premium of R4403.69 yearly (in cents) and R389.28 monthly', function () {
+      expect(quotePackage[0].suggested_premium).to.equal(440369); // cents
+      expect(quotePackage[1].suggested_premium).to.equal(38928); // cents
     });
   });
 
@@ -40,8 +41,8 @@ describe('Policy issue flow', function () {
       expect(validationResult.error).to.equal(null);
     });
     it('should return the correct module data', function () {
-      expect(applicationPackage.module.SOME_PROPERTY).to.equal(
-        '<SOME_PROPERTY>',
+      expect(applicationPackage.module.sales_channel).to.equal(
+        'mobile_app',
       );
     });
   });
@@ -50,9 +51,9 @@ describe('Policy issue flow', function () {
   describe('Policy issue hook', function () {
     it('should create a policy with the correct parameters', function () {
       const policy = getPolicy(applicationPackage, undefined, undefined);
-      expect(policy.package_name).to.equal('<CORRECT PACKAGE NAME>');
-      expect(policy.monthly_premium).to.equal(1234);
-      expect(policy.sum_assured).to.equal(12345678);
+      expect(policy.package_name).to.equal('proteas_nude_insurance');
+      expect(policy.monthly_premium).to.equal(440369);
+      expect(policy.sum_assured).to.equal(7351174);
     });
   });
 });

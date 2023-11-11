@@ -13,8 +13,8 @@ const getPolicy = (application, policyholder, billing_day) => {
     sum_assured: application.sum_assured,
     base_premium: application.base_premium,
     monthly_premium: application.monthly_premium,
-    start_date: moment().add(1, 'day').format(), // policy starts the day after issue
-    end_date: null, // no policy end date
+    start_date: application.module.effective_start_date, 
+    end_date: moment(application.module.effective_start_date).add(2, 'year').format('YYYY-MM-DD'), 
     module: {
       ...application.module,
     },

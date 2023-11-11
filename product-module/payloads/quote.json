@@ -1,0 +1,30 @@
+{
+  "date_of_birth": "1948-04-08T04:27:30.0Z",
+  "devices": [
+    {
+      "brand": "Samsung",
+      "worldwide_cover": true,
+      "device_usage": "personal",
+      "model": "Samsung Gear 2",
+      "value_amount": 309968
+    },
+    {
+      "brand": "Meizu",
+      "worldwide_cover": false,
+      "province": "free_state",
+      "device_usage": "work",
+      "model": "Meizu 20 Infinity 5G Premium Edition",
+      
+      "value_amount": 224407
+    },
+    {
+      "brand": "Other",
+      "brand_other": "Lenovo",
+      "worldwide_cover": true,
+      "device_usage": "work",
+      "model": "Other",
+      "model_other": "Lenovo Yoga Book 9i 13IRU8",
+      "value_amount": 4797199
+    }
+  ]
+}

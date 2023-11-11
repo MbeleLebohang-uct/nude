@@ -5,12 +5,12 @@ const quoteSchema = Joi.object().keys({
   date_of_birth: Joi.date().iso()
     .max(moment().format('YYYY-MM-DD'))
     .required(),
-  province: Joi.string()
-    .valid(Object.keys(GEOGRAPHICAL_FACTORS_BY_PROVINCE))
-    .required(),
+  axcess_amount: Joi.number()
+    .required()
+    .meta({ root_type: 'currency', props: { prefix: 'R' } }),
   devices: Joi.array()
     .min(1)
-    .max(5).items(deviceDetailsValidation)
+    .max(10).items(deviceDetailsValidation)
     .required(),
 });
 
@@ -40,31 +40,29 @@ const validateQuoteRequest = (data) => {
  * @see {@link https://docs.rootplatform.com/docs/quote-hook Quote hook}
  */
 const getQuote = (data) => {
+  const moduleData = buildModuleData(data);
+  const basePremium = sumObjectsValue(moduleData.devices, (device) => device.base_premium_amount);
+  const premium = sumObjectsValue(moduleData.devices, (device) => device.premium_amount);
+  const sumAssured = sumObjectsValue(moduleData.devices, (device) => device.value_amount);
 
-  // (BaseRate+∑ 
-  //   i=1
-  //   n
-  //   ​
-  //    CoverageFactor 
-  //   i
-  //   ​
-  //    ×DeviceInfo 
-  //   i
-  //   ​
-  //    )×UsageMultiplier×GeographicalMultiplier×SecurityDiscount
-
-  const age = getAgeFromDateOfBirth(data.date_of_birth);
-
-  const quotePackage = new QuotePackage({
-    package_name: 'proteas_nude_insurance', // The name of the "package" of cover
-    sum_assured: 10000 * 100, // Set the total, aggregated cover amount
-    base_premium: 100 * 100, // Should be an integer, cents
-    suggested_premium: 100 * 100, // Should be an integer, cents
-    billing_frequency: 'monthly', // Can be monthly or yearly
-    module: {
-      ...data,
-    },
+  const monthlyQuotePackage = new QuotePackage({
+    package_name: 'proteas_nude_insurance',
+    sum_assured: sumAssured,
+    base_premium: Math.round(basePremium),
+    suggested_premium: Math.round(premium),
+    billing_frequency: 'monthly', 
+    module: moduleData,
     input_data: { ...data },
   });
-  return [quotePackage];
+  
+  const yearlyQuotePackage = new QuotePackage({
+    package_name: 'proteas_nude_insurance',
+    sum_assured: sumAssured,
+    base_premium: Math.round(basePremium*12*YEARLY_PREMIUM_DISCOUNT),
+    suggested_premium: Math.round(premium*12*YEARLY_PREMIUM_DISCOUNT),
+    billing_frequency: 'yearly', 
+    module: moduleData,
+    input_data: { ...data },
+  });
+  return [yearlyQuotePackage, monthlyQuotePackage];
 };

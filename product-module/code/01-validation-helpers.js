@@ -5,8 +5,21 @@ const deviceDetailsValidation = Joi.object().keys({
   brand: Joi.string()
     .valid(BRANDS)
     .required(),
+  brand_other: Joi.when('model', {
+    is: 'Other',
+    then: Joi.string()
+      .required(),
+    otherwise: Joi.forbidden().allow(null),
+  }),
   worldwide_cover: Joi.boolean()
     .required(),
+  province: Joi.when('worldwide_cover', {
+    is: false,
+    then: Joi.string()
+      .valid(Object.keys(GEOGRAPHICAL_FACTORS_BY_PROVINCE))
+      .required(),
+    otherwise: Joi.forbidden().allow(null),
+  }),
   device_usage: Joi.string()
     .valid(Object.keys(USAGE_FACTORS))
     .required(),

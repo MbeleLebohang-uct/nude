@@ -1,26 +1,24 @@
 const GEOGRAPHICAL_FACTORS_BY_PROVINCE = {
-  gauteng: 1588,
-  kwazulu_natal: 959,
-  eastern_cape: 633,
-  mpumalanga: 522,
-  limpopo: 520,
-  western_cape: 437,
-  north_west: 318,
-  free_state: 224,
-  northern_cape: 80
-};
-
-const COVERAGE_FACTORS = {
-  local: 1.0,
-  worldwide: 0.83372
+  gauteng: 1588/100000,
+  kwazulu_natal: 959/100000,
+  eastern_cape: 633/100000,
+  mpumalanga: 522/100000,
+  limpopo: 520/100000,
+  western_cape: 437/100000,
+  north_west: 318/100000,
+  free_state: 224/100000,
+  northern_cape: 80/100000,
+  worldwide: 2833/100000
 };
 
 const USAGE_FACTORS = {
-  personal: 0.9593885883,
-  work: 0.9163492633	
+  personal: 0.4543885883,
+  work: 0.4163442633	
 };
 
-const BASE_RATE = 63;
+const MIN_BASE_RATE = 2400;
+const MAX_BASE_RATE = 5900;
+const YEARLY_PREMIUM_DISCOUNT = 0.9427;
 
 const BRAND_FACTORS = [
   {
@@ -710,6 +708,10 @@ const BRAND_FACTORS = [
   {
     brand: 'Nixeus',
     brand_factor: 0.15
+  },
+  {
+    brand: 'Eufy',
+    brand_factor: 0.17
   },
   {
     brand: 'Smartisan',
@@ -2250,10 +2252,15 @@ const BRAND_FACTORS = [
   {
     brand: 'enTourage',
     brand_factor: 0.1
-  }
+  },
 ]
 
-const PRODUCTS = [
+const OTHER_BRAND = {
+  brand: 'Other',
+  brand_factor: 0.7431
+}
+
+const DEVICES = [
   {
     product: {
       id: '63e960cf28a94f6e179fb297',
@@ -2688,14 +2695,17 @@ const PRODUCTS = [
   }
 ]
 
-const OTHER_PRODUCT = {
+const OTHER_DEVICE = {
   product: {
     id: '654e101c3bdd772014bcfb19'
   }
 };
 
-const BRANDS = BRAND_FACTORS.map((item) => item.brand);
+const BRANDS = [
+  ...BRAND_FACTORS.map((item) => item.brand),
+  'Other'
+];
 const MODELS = [
-  ...(PRODUCTS.map((item) => item.product.model)), 
+  ...(DEVICES.map((item) => item.product.model)), 
   'Other'
 ];
