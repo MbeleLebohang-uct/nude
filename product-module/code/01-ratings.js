@@ -1,14 +1,14 @@
 const GEOGRAPHICAL_FACTORS_BY_PROVINCE = {
-  gauteng: 1588/100000,
-  kwazulu_natal: 959/100000,
-  eastern_cape: 633/100000,
-  mpumalanga: 522/100000,
-  limpopo: 520/100000,
-  western_cape: 437/100000,
-  north_west: 318/100000,
-  free_state: 224/100000,
-  northern_cape: 80/100000,
-  worldwide: 2833/100000
+  gauteng: 1588/50000,
+  kwazulu_natal: 959/50000,
+  eastern_cape: 633/50000,
+  mpumalanga: 522/50000,
+  limpopo: 520/50000,
+  western_cape: 437/50000,
+  north_west: 318/50000,
+  free_state: 224/50000,
+  northern_cape: 80/50000,
+  worldwide: 2833/50000
 };
 
 const USAGE_FACTORS = {

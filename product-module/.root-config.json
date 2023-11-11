@@ -73,16 +73,16 @@
     "policyAnniversaryNotification": null,
     "policyholder": {
       "individualsAllowed": true,
-      "individualsIdAllowed": true,
-      "individualsPassportAllowed": true,
+      "individualsIdAllowed": false,
+      "individualsPassportAllowed": false,
       "individualsCellphoneAllowed": false,
       "individualsCustomIdAllowed": false,
-      "individualsEmailAllowed": false,
+      "individualsEmailAllowed": true,
       "companiesAllowed": false,
       "individualPolicyholderFields": {
         "address": {
           "suburb": {
-            "required": true
+            "required": false
           }
         },
         "dateOfBirth": {
@@ -91,7 +91,7 @@
       }
     },
     "beneficiaries": {
-      "makePolicyholderABeneficiary": false,
+      "makePolicyholderABeneficiary": true,
       "min": 1,
       "max": 1
     },
@@ -107,7 +107,7 @@
       "currency": "ZAR",
       "enableBillingOnSandbox": false,
       "paymentSubmissionLeadTime": 0,
-      "clientStatementReference": "<set_reference>",
+      "clientStatementReference": "dev_nude",
       "paymentMethodTypes": {
         "debitOrders": {
           "enabled": true,

@@ -112,7 +112,7 @@ const getDeviceModuleData = (device, baseRate, dateOfBith, sumAssured, axcessAmo
   
   const deviceAccessAmount =  axcessAmount*(device.value_amount/sumAssured);
   const axcessFactorExponent = ((-1*Math.PI*deviceAccessAmount)/(deviceAccessAmount + device.value_amount));
-  const axcessFactor = Math.pow(2*Math.E, axcessFactorExponent) - 0.5;
+  const axcessFactor = Math.pow(Math.E, axcessFactorExponent);
 
   const premium = premiumWithoutAxcessFactor * (1 + clamp(axcessFactor, 0, 1));
 
