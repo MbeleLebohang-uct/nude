@@ -1,5 +1,7 @@
 {
-  "date_of_birth": "1948-04-08T04:27:30.0Z",
+  "type": "proteas_nude_insurance",
+  "date_of_birth": "1995-04-08T04:27:30.0Z",
+  "axcess_amount": 1000000,
   "devices": [
     {
       "brand": "Samsung",
@@ -14,8 +16,7 @@
       "province": "free_state",
       "device_usage": "work",
       "model": "Meizu 20 Infinity 5G Premium Edition",
-      
-      "value_amount": 224407
+      "value_amount": 2244007
     },
     {
       "brand": "Other",

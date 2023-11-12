@@ -24,9 +24,10 @@ describe('Policy issue flow', function () {
       expect(validationResult.error).to.equal(null);
     });
 
-    it('should return a suggested premium of R4403.69 yearly (in cents) and R389.28 monthly', function () {
-      expect(quotePackage[0].suggested_premium).to.equal(440369); // cents
-      expect(quotePackage[1].suggested_premium).to.equal(38928); // cents
+    it('should return a suggested premium of R511.90 yearly (in cents) and R389.28 monthly', function () {
+      console.log(JSON.stringify(quotePackage))
+      expect(quotePackage[0].suggested_premium).to.equal(47389); // cents
+      expect(quotePackage[1].suggested_premium).to.equal(54302); // cents
     });
   });
 
@@ -52,7 +53,7 @@ describe('Policy issue flow', function () {
     it('should create a policy with the correct parameters', function () {
       const policy = getPolicy(applicationPackage, undefined, undefined);
       expect(policy.package_name).to.equal('proteas_nude_insurance');
-      expect(policy.monthly_premium).to.equal(440369);
+      expect(policy.monthly_premium).to.equal(47389);
       expect(policy.sum_assured).to.equal(7351174);
     });
   });

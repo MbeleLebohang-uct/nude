@@ -18,7 +18,7 @@ const USAGE_FACTORS = {
 
 const MIN_BASE_RATE = 2400;
 const MAX_BASE_RATE = 5900;
-const YEARLY_PREMIUM_DISCOUNT = 0.9427;
+const YEARLY_PREMIUM_DISCOUNT = 0.8727;
 
 const BRAND_FACTORS = [
   {
@@ -2257,7 +2257,7 @@ const BRAND_FACTORS = [
 
 const OTHER_BRAND = {
   brand: 'Other',
-  brand_factor: 0.7431
+  brand_factor: 0.1431
 }
 
 const DEVICES = [
@@ -2697,7 +2697,7 @@ const DEVICES = [
 
 const OTHER_DEVICE = {
   product: {
-    id: '654e101c3bdd772014bcfb19'
+    id: '654e100a3bdd772014bcfb19'
   }
 };
 
