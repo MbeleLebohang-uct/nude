@@ -115,18 +115,6 @@ const getDeviceModuleData = (device, baseRate, dateOfBith, sumAssured, axcessAmo
   const axcessFactor = Math.pow(Math.E, axcessFactorExponent);
   const premium = premiumWithoutAxcessFactor * (1 + clamp(axcessFactor, 0, 1));
 
-  console.log(`--------------------------------------------------------------:`)
-  console.log(`deviceGeographicalFactor: ${deviceGeographicalFactor}`)
-  console.log(`deviceInfoFactor: ${deviceInfoFactor}`)
-  console.log(`usageFactor: ${usageFactor}`)
-  console.log(`ageFactor: ${ageFactor}`)
-  console.log(`deviceAccessAmount: ${deviceAccessAmount}`)
-  console.log(`premiumWithoutAxcessFactor: ${premiumWithoutAxcessFactor}`)
-  console.log(`axcessFactor: ${axcessFactor}`)
-  console.log(`premium: ${premium}`)
-  console.log(`Toatal: ${deviceGeographicalFactor*deviceInfoFactor*usageFactor*ageFactor}`)
-
-
   return {
     ...device,
     uuid: device.uuid ? device.uuid : createUuid(),

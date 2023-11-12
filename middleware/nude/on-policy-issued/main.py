@@ -11,6 +11,8 @@ def handler(event, context):
   results = {
     'environment': os.getenv('ENVIRONMENT'),
     'message': 'Successfuly handled!',
+    'body': json.loads(event["body"]),
+    'headers': event["headers"]
   }
 
   return {
