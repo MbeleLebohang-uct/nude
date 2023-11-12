@@ -1,0 +1,45 @@
+{
+  "webhook_id": "38b39a76-3ee2-4e2d-b01e-0d614d29dbfa",
+  "environment": "sandbox",
+  "verification_token": "zYAPRHKQGz78mGPJHjxgg0tVxK4zWFbjyHdmUMRqkSXOB94Rp83W8HZoH547w8JA",
+  "event": {
+    "type": "policyholder_created",
+    "entity_type": "individual",
+    "created_at": "2023-11-12T16:59:29.310Z",
+    "identification": {
+      "type": "email",
+      "number": "lebohang+2@root.co.za",
+      "country": "ZA"
+    },
+    "first_name": "Lebohang",
+    "last_name": "Mbele",
+    "policyholder_id": "34bf63df-4fdb-4706-8bf5-d702e06743f1",
+    "requested_by": {
+      "type": "api_key",
+      "id": "33f5f501-9594-4051-bd71-f98f5ec372b4",
+      "owner_id": "ca3f58f2-61b8-498a-bf29-6c604561cfbc"
+    }
+  },
+  "policyholder": {
+    "policyholder_id": "34bf63df-4fdb-4706-8bf5-d702e06743f1",
+    "type": "individual",
+    "first_name": "Lebohang",
+    "last_name": "Mbele",
+    "id": {
+      "type": "email",
+      "number": "lebohang+2@root.co.za",
+      "country": "ZA"
+    },
+    "cellphone": null,
+    "phone_other": null,
+    "created_at": "2023-11-12T16:59:29.310Z",
+    "app_data": null,
+    "policy_ids": [],
+    "created_by": {
+      "type": "api_key",
+      "id": "33f5f501-9594-4051-bd71-f98f5ec372b4",
+      "ownerId": "ca3f58f2-61b8-498a-bf29-6c604561cfbc"
+    },
+    "updated_at": "2023-11-12T16:59:29.312Z"
+  }
+}

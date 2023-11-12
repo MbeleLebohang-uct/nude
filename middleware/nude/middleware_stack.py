@@ -23,15 +23,20 @@ class MiddlewareStack(Stack):
         v1 = root_webhook_handler_rest_api.root.add_resource("v1")
         webhooks_resources = v1.add_resource("webhooks")
 
-        environment={
+        base_environment={
             'ROOT_API_KEY': getenv('ROOT_API_KEY'),
-            'ROOT_WEBHOOK_SECRET': getenv('ROOT_WEBHOOK_SECRET'),
             'ENVIRONMENT': 'production' if stage == 'main' else 'sandbox' # main branch deployments == production
         }
 
-        self._add_simple_lambda_function('on-policy-issued', 'POST', webhooks_resources, environment)
-        self._add_docker_lambda_function('on-policy-cancelled', 'POST', webhooks_resources, environment)
-        self._add_simple_lambda_function('on-policyholder-created', 'POST', webhooks_resources, environment)
+        self._add_docker_lambda_function('on-policy-cancelled', 'POST', webhooks_resources, base_environment)
+        self._add_simple_lambda_function('on-policy-issued', 'POST', webhooks_resources, {
+            **base_environment, 
+            'ROOT_WEBHOOK_SECRET': getenv('POLICY_EVENTS_WEBHOOK_SECRET')
+        })
+        self._add_simple_lambda_function('on-policyholder-created', 'POST', webhooks_resources, {
+            **base_environment,
+            'ROOT_WEBHOOK_SECRET': getenv('POLICYHOLDER_EVENTS_WEBHOOK_SECRET')
+        })
 
     def _add_simple_lambda_function(self, key, http_method, parent_resource, environment):
         resources = parent_resource.add_resource(key)
