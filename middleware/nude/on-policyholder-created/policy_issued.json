@@ -1,0 +1,218 @@
+{
+  "environment": "sandbox",
+  "message": "Successfuly handled!",
+  "body": {
+    "webhook_id": "0f8e3d26-72a2-43cf-a8b0-7ffd5d49a317",
+    "environment": "sandbox",
+    "verification_token": "zYAPRHKQGz78mGPJHjxgg0tVxK4zWFbjyHdmUMRqkSXOB94Rp83W8HZoH547w8JA",
+    "event": {
+      "type": "policy_issued",
+      "created_at": "2023-11-12T09:01:13.765Z",
+      "metadata": {
+        "requested_at": "2023-11-12T09:01:13.765Z",
+        "requested_by": {
+          "type": "api_key",
+          "id": "33f5f501-9594-4051-bd71-f98f5ec372b4",
+          "owner_id": "ca3f58f2-61b8-498a-bf29-6c604561cfbc"
+        }
+      },
+      "policy_number": "06AF984155",
+      "package_name": "proteas_nude_insurance",
+      "sum_assured": 7351174,
+      "monthly_premium": 47389,
+      "base_premium": 6291,
+      "billing_frequency": "yearly",
+      "billing_amount": 47389,
+      "billing_month": 13,
+      "billing_day": 1,
+      "beneficiaries": [
+        {
+          "beneficiaryId": "997bdd91-83ea-4aff-bcbc-29c22399ea71",
+          "policyId": "e75a9baf-2119-4556-998f-fd57def1f1ab",
+          "policyholderId": "39c6322f-c31b-46ba-ac03-22e90df766e1",
+          "percentage": 100,
+          "relationship": "policyholder"
+        }
+      ],
+      "start_date": "2023-12-04T23:13:36.000Z",
+      "end_date": "2025-12-04T00:00:00.000Z",
+      "module": {
+        "type": "proteas_nude_insurance",
+        "devices": [
+          {
+            "uuid": "1c84d0a0-d561-4634-a832-9478aa8a22a7",
+            "brand": "Samsung",
+            "model": "Samsung Gear 2",
+            "device_usage": "personal",
+            "value_amount": 309968,
+            "axcess_amount": 42166,
+            "premium_amount": 4202,
+            "worldwide_cover": true,
+            "base_premium_amount": 2403
+          },
+          {
+            "uuid": "bfe2a895-ddb6-4404-b831-71ee2c0640b4",
+            "brand": "Meizu",
+            "model": "Meizu 20 Infinity 5G Premium Edition",
+            "province": "free_state",
+            "device_usage": "work",
+            "value_amount": 2244007,
+            "axcess_amount": 305258,
+            "premium_amount": 2403,
+            "worldwide_cover": false,
+            "base_premium_amount": 2403
+          },
+          {
+            "uuid": "bfa7265c-f74d-4bab-b69c-971392f0d350",
+            "brand": "Other",
+            "model": "Other",
+            "brand_other": "Lenovo",
+            "model_other": "Lenovo Yoga Book 9i 13IRU8",
+            "device_usage": "work",
+            "value_amount": 4797199,
+            "axcess_amount": 652576,
+            "premium_amount": 47697,
+            "worldwide_cover": true,
+            "base_premium_amount": 2403
+          }
+        ],
+        "auto_renew": true,
+        "axcess_amount": 1000000,
+        "date_of_birth": "1995-04-08T04:27:30.000Z",
+        "sales_channel": "mobile_app",
+        "effective_start_date": "2023-12-04T23:13:36.000Z"
+      },
+      "application_id": "87e2dd66-8fb4-48aa-abf3-2726d3fa6c24",
+      "policyholder_id": "39c6322f-c31b-46ba-ac03-22e90df766e1",
+      "scheme_type": "individual",
+      "currency": "ZAR",
+      "product_module_id": "621a303a-9d35-44ea-8ed3-6719c73e7a99",
+      "product_module_definition_id": "b2bf98c4-025d-47ee-b257-5e4163f90b6e",
+      "charges": [],
+      "claim_ids": [],
+      "complaint_ids": [],
+      "terms_file_id": "82e3562e-519b-460c-9401-efdb6789266f",
+      "terms_uri": "https://sandbox.root.co.za/v1/insurance/policies/e75a9baf-2119-4556-998f-fd57def1f1ab/terms/terms.pdf",
+      "policy_id": "e75a9baf-2119-4556-998f-fd57def1f1ab",
+      "requested_by": {
+        "type": "api_key",
+        "id": "33f5f501-9594-4051-bd71-f98f5ec372b4",
+        "owner_id": "ca3f58f2-61b8-498a-bf29-6c604561cfbc"
+      }
+    },
+    "policy": {
+      "policy_id": "e75a9baf-2119-4556-998f-fd57def1f1ab",
+      "scheme_type": "individual",
+      "created_at": "2023-11-12T09:01:13.765Z",
+      "created_by": {
+        "type": "api_key",
+        "id": "33f5f501-9594-4051-bd71-f98f5ec372b4",
+        "owner_id": "ca3f58f2-61b8-498a-bf29-6c604561cfbc"
+      },
+      "policy_number": "06AF984155",
+      "policyholder_id": "39c6322f-c31b-46ba-ac03-22e90df766e1",
+      "package_name": "proteas_nude_insurance",
+      "sum_assured": 7351174,
+      "base_premium": 6291,
+      "monthly_premium": 47389,
+      "billing_amount": 47389,
+      "billing_frequency": "yearly",
+      "billing_month": 13,
+      "billing_day": 1,
+      "next_billing_date": "2024-01-01T00:00:00.000Z",
+      "next_collection_date": "2023-12-01T00:00:00.000Z",
+      "start_date": "2023-12-04T23:13:36.000Z",
+      "end_date": "2025-12-04T00:00:00.000Z",
+      "cancelled_at": null,
+      "reason_cancelled": null,
+      "app_data": null,
+      "module": {
+        "type": "proteas_nude_insurance",
+        "devices": [
+          {
+            "uuid": "1c84d0a0-d561-4634-a832-9478aa8a22a7",
+            "brand": "Samsung",
+            "model": "Samsung Gear 2",
+            "device_usage": "personal",
+            "value_amount": 309968,
+            "axcess_amount": 42166,
+            "premium_amount": 4202,
+            "worldwide_cover": true,
+            "base_premium_amount": 2403
+          },
+          {
+            "uuid": "bfe2a895-ddb6-4404-b831-71ee2c0640b4",
+            "brand": "Meizu",
+            "model": "Meizu 20 Infinity 5G Premium Edition",
+            "province": "free_state",
+            "device_usage": "work",
+            "value_amount": 2244007,
+            "axcess_amount": 305258,
+            "premium_amount": 2403,
+            "worldwide_cover": false,
+            "base_premium_amount": 2403
+          },
+          {
+            "uuid": "bfa7265c-f74d-4bab-b69c-971392f0d350",
+            "brand": "Other",
+            "model": "Other",
+            "brand_other": "Lenovo",
+            "model_other": "Lenovo Yoga Book 9i 13IRU8",
+            "device_usage": "work",
+            "value_amount": 4797199,
+            "axcess_amount": 652576,
+            "premium_amount": 47697,
+            "worldwide_cover": true,
+            "base_premium_amount": 2403
+          }
+        ],
+        "auto_renew": true,
+        "axcess_amount": 1000000,
+        "date_of_birth": "1995-04-08T04:27:30.000Z",
+        "sales_channel": "mobile_app",
+        "effective_start_date": "2023-12-04T23:13:36.000Z"
+      },
+      "product_module_id": "621a303a-9d35-44ea-8ed3-6719c73e7a99",
+      "product_module_definition_id": "b2bf98c4-025d-47ee-b257-5e4163f90b6e",
+      "beneficiaries": [
+        {
+          "beneficiary_id": "997bdd91-83ea-4aff-bcbc-29c22399ea71",
+          "policyholder_id": "39c6322f-c31b-46ba-ac03-22e90df766e1",
+          "percentage": 100,
+          "relationship": "policyholder"
+        }
+      ],
+      "current_version": null,
+      "policy_schedule_uri": "https://sandbox.root.co.za/v1/insurance/policies/e75a9baf-2119-4556-998f-fd57def1f1ab/schedule/schedule_latest.pdf",
+      "schedule_versions": [],
+      "terms_file_id": "82e3562e-519b-460c-9401-efdb6789266f",
+      "terms_uri": "https://sandbox.root.co.za/v1/insurance/policies/e75a9baf-2119-4556-998f-fd57def1f1ab/terms/terms.pdf",
+      "supplementary_terms_files": [],
+      "claim_ids": [],
+      "complaint_ids": [],
+      "status": "active",
+      "balance": 0,
+      "currency": "ZAR",
+      "status_updated_at": "2023-11-12T09:01:14.165Z",
+      "updated_at": "2023-11-12T09:01:14.165Z",
+      "covered_people": [],
+      "application_id": "87e2dd66-8fb4-48aa-abf3-2726d3fa6c24",
+      "charges": []
+    }
+  },
+  "headers": {
+    "Accept": "application/json",
+    "Accept-Encoding": "gzip",
+    "Content-Length": "5384",
+    "Content-Type": "application/json",
+    "Host": "f1a7-165-255-69-204.ngrok-free.app",
+    "Newrelic": "eyJ2IjpbMCwxXSwiZCI6eyJ0eSI6IkFwcCIsImFjIjoiMzAxNzE5NiIsImFwIjoiMTI4OTEzMzM3IiwidHgiOiI1ZGNjMzFjMzg5MWVjZWYxIiwidHIiOiJiZmMyZmFlMDI0YmM0ZTlmMzhmZTIxNjMxMGJmMjc3NCIsInByIjowLjkyOTI0Niwic2EiOmZhbHNlLCJ0aSI6MTY5OTc3OTY3NDE5N319",
+    "Traceparent": "00-bfc2fae024bc4e9f38fe216310bf2774-996df1ff3ca5cc10-00",
+    "Tracestate": "3017196@nr=0-0-3017196-128913337-996df1ff3ca5cc10-5dcc31c3891ecef1-0-0.929246-1699779674197",
+    "X-Forwarded-For": "13.244.229.86",
+    "X-Forwarded-Host": "f1a7-165-255-69-204.ngrok-free.app",
+    "X-Forwarded-Port": "3000",
+    "X-Forwarded-Proto": "http",
+    "X-Hook-Signature": "4489ecb4cd6c6c44a2840395da46078dbf338478"
+  }
+}

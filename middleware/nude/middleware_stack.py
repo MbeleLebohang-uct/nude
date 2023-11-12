@@ -31,6 +31,7 @@ class MiddlewareStack(Stack):
 
         self._add_simple_lambda_function('on-policy-issued', 'POST', webhooks_resources, environment)
         self._add_docker_lambda_function('on-policy-cancelled', 'POST', webhooks_resources, environment)
+        self._add_simple_lambda_function('on-policyholder-created', 'POST', webhooks_resources, environment)
 
     def _add_simple_lambda_function(self, key, http_method, parent_resource, environment):
         resources = parent_resource.add_resource(key)

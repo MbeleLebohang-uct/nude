@@ -1,0 +1,25 @@
+{
+  "folders": [
+    {
+      "name": "project-root",
+      "path": "./"
+    },
+    {
+      "name": "supabase-functions",
+      "path": "supabase/functions"
+    },
+    {
+      "name": "middleware",
+      "path": "middleware"
+    },
+    {
+      "name": "product-module",
+      "path": "product-module"
+    },
+  ],
+  "settings": {
+    "files.exclude": {
+      "supabase/functions/": true
+    }
+  }
+}
