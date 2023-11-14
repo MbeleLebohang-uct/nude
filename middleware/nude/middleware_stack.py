@@ -25,6 +25,9 @@ class MiddlewareStack(Stack):
 
         base_environment={
             'ROOT_API_KEY': getenv('ROOT_API_KEY'),
+            'PLATFORM_SUPABASE_SERVICE_ROLE_KEY': getenv('PLATFORM_SUPABASE_SERVICE_ROLE_KEY'),
+            'PLATFORM_SUPABASE_URL': getenv('PLATFORM_SUPABASE_URL'),
+            'PLATFORM_SUPABASE_ANON_KEY': getenv('PLATFORM_SUPABASE_ANON_KEY'),
             'ENVIRONMENT': 'production' if stage == 'main' else 'sandbox' # main branch deployments == production
         }
 

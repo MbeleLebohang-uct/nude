@@ -1,8 +1,20 @@
-import base64
+import http.client
 import hashlib
 import hmac
 import os
 import json
+
+# curl -X PUT 'http://localhost:54321/auth/v1/user' \
+# -H "apikey: SUPABASE_KEY" \
+# -H "Authorization: Bearer <SUPABASE_SERVICE_ROLE_KEY>" \
+# -H "Content-Type: application/json" \
+# -d '{
+#   "email": "someone@email.com",
+#   "data": {
+#     "policyholder": body["policyholder"]
+#   }
+# }'
+
 
 def get_response(code, body):
   return {
@@ -35,13 +47,32 @@ def handler(event, context):
   if not verified:
     return get_response(401, 'Invalid webhook signature')
   
-  results = {
-    'environment': os.getenv('ENVIRONMENT'),
-    'secret': secret,
-    'message': 'Successfuly handled!',
-    'body': event["body"],
-    'headers': event["headers"]
+  body = json.loads(event["body"])
+  
+  data = {
+    "email": body["policyholder"]["id"]["number"],
+    "data": {
+      "policyholder": body["policyholder"]
+    }
   }
 
+  connection = http.client.HTTPConnection(os.getenv('PLATFORM_SUPABASE_URL'))
+  connection.request(
+    'PUT', 
+    '/auth/v1/user', 
+    body=json.dumps(data), 
+    headers={
+      'apikey': os.getenv('PLATFORM_SUPABASE_ANON_KEY'),
+      'Authorization': f"Bearer {os.getenv('PLATFORM_SUPABASE_SERVICE_ROLE_KEY')}",
+      'Content-Type': 'application/json'
+    }
+  )
+  response = connection.getresponse()
+
+  results = {
+    'environment': os.getenv('ENVIRONMENT'),
+    'body': response.read().decode('utf-8'),
+    'message': 'Successfuly handled!',
+  }
   
   return get_response(status_code, json.dumps(results))
