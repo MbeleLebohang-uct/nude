@@ -72,7 +72,7 @@ def handler(event, context):
   results = {
     'environment': os.getenv('ENVIRONMENT'),
     'body': response.read().decode('utf-8'),
-    'message': 'Successfuly handled!',
+    'message': 'Webhook handled!',
   }
   
-  return get_response(status_code, json.dumps(results))
+  return get_response(response.status, json.dumps(results))
