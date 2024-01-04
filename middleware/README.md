@@ -1,7 +1,7 @@
 
 # Welcome Root middleware CDK Python project!
 
-This is a blank project for Root middleware development using AWS CDK with Python.
+This is a Nude project for Root middleware development using AWS CDK with Python.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
