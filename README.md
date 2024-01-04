@@ -1,4 +1,4 @@
-## Nude Insurance | Showcase project
+## Nude Insurance | Showcase Project
 
 This is the Nude insurance product built using [Root](https://root.co.za) platform.
 
