@@ -10,11 +10,10 @@ on:
 
 env:
   STAGE: ${{ github.head_ref || github.ref_name }}
-  REGION: ${{ secrets.AWS_REGION }}
   ACCOUNT_ID: ${{ secrets.AWS_ACCOUNT_ID }}
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+  REGION: ${{ secrets.AWS_REGION }}
 
 jobs:
   aws_cdk:
@@ -32,17 +31,15 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY }}
           aws-region: ${{ secrets.REGION }}
       - name: Install dependencies
-        run: echo 'install dependencies'
-      - name: Decrypt secrets
-        run: chmod +x decrypt_secret.sh && ./decrypt_secret.sh
-      - name: Environment setup
-        run: echo 'install dependencies on $STAGE'
-      - name: AWS setup
-        run: echo 'aws setup on $STAGE'
+        run: chmod +x install.sh && ./install.sh
+      - name: Decode env file
+        run: echo $ENV_FILE_CONTENTS | base64 -d > ./.env
+        env:
+          ENV_FILE_CONTENTS: ${{ secrets.ENV_FILE_CONTENTS }}
       - name: AWS account bootstraping
-        run: yarn cdk bootstrap -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
+        run: cdk bootstrap -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
       - name: AWS stack synthsize
-        run: yarn cdk synthesize -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
+        run: cdk synthesize -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
       - name: AWS stack deploy
-        run: yarn cdk deploy --require-approval never -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} -O aws_config.json
+        run: cdk deploy --require-approval never -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} -O aws_config.json
         
