@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 from nude.middleware_stack import MiddlewareStack
 
-load_dotenv(dotenv_path=Path(__file__).parent.joinpath(".env"))
+load_dotenv(dotenv_path=Path(__file__).parent.parent.joinpath(".env"))
 
 app = cdk.App()
 
