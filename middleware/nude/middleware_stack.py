@@ -31,10 +31,13 @@ class MiddlewareStack(Stack):
             'ENVIRONMENT': 'production' if stage == 'main' else 'sandbox' # main branch deployments == production
         }
 
-        self._add_docker_lambda_function('on-policy-cancelled', 'POST', webhooks_resources, base_environment)
+        self._add_docker_lambda_function('on-policy-cancelled', 'POST', webhooks_resources, {
+            **base_environment,
+            'ROOT_WEBHOOK_SECRET': getenv('POLICY_CANCELLED_WEBHOOK_SECRET')
+        })
         self._add_simple_lambda_function('on-policy-issued', 'POST', webhooks_resources, {
             **base_environment, 
-            'ROOT_WEBHOOK_SECRET': getenv('POLICY_EVENTS_WEBHOOK_SECRET')
+            'ROOT_WEBHOOK_SECRET': getenv('POLICY_ISSUED_WEBHOOK_SECRET')
         })
         self._add_simple_lambda_function('on-policyholder-created', 'POST', webhooks_resources, {
             **base_environment,

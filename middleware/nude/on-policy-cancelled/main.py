@@ -8,11 +8,11 @@ def handler(event, context):
   status_code = 200
 
   # Handle on policy issued webhook
-  print('---------On policy issued!----------')
+  print('---------On policy cancelled!----------')
 
   response = requests.request(
     "GET", 
-    f"https://{os.getenv('ENVIRONMENT')}.root.co.za/v1/insurance/policyholders?id_number=9111205800085", 
+    f"https://{os.getenv('ENVIRONMENT')}.root.co.za/v1/insurance/policyholders?id_number=back@future.com", 
     headers={
       'Content-Type': 'application/json',
       'Authorization': f"Basic {base64.b64encode(os.getenv('ROOT_API_KEY').encode()).decode()}"
@@ -24,6 +24,8 @@ def handler(event, context):
     'message': 'Successfuly handled!',
     'results': response.json()
   }
+
+  print(results)
 
   return {
     'statusCode': status_code,
