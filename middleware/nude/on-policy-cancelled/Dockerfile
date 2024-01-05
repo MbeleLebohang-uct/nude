@@ -6,13 +6,14 @@ ADD app app
 
 # Install the function's dependencies using file requirements.txt
 # from your project folder.
-COPY requirements.txt  .
-RUN echo "Hello, this is an echo message."
-RUN which pip3
-RUN which pip
-RUN which python
-RUN pip3 --version
-RUN pip --version
-RUN  pip install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
+COPY requirements.txt ${LAMBDA_TASK_ROOT}
+WORKDIR ${LAMBDA_TASK_ROOT}
+# RUN echo "Hello, this is an echo message."
+# RUN which pip3
+# RUN which pip
+# RUN which python
+# RUN pip3 --version
+# RUN pip --version
+RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 # Set the CMD to your handler (could also be done as a parameter override outside of the Dockerfile)
 CMD ["main.handler"]
