@@ -1,12 +1,11 @@
 FROM public.ecr.aws/lambda/python:3.8
-# Copy function code
-# COPY main.py ${LAMBDA_TASK_ROOT}
-COPY . ${LAMBDA_TASK_ROOT}
 
-# Add local dependencies
+COPY main.py ${LAMBDA_TASK_ROOT}
 ADD app app
 
 COPY requirements.txt ${LAMBDA_TASK_ROOT}
+
+SHELL ["/bin/bash", "-c"] 
 
 RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 
