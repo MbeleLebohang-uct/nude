@@ -9,11 +9,8 @@ ADD app app
 # from your project folder.
 COPY requirements.txt ${LAMBDA_TASK_ROOT}
 
-ARG BUILD_NAME
-RUN echo ${BUILD_NAME}
-
-WORKDIR ${LAMBDA_TASK_ROOT}
-RUN echo "Hello, this is an echo message."
+# RUN echo "Hello, this is an echo message."
+CMD ["/bin/echo", "Hello, this is an echo message."]
 RUN which pip3
 # RUN which pip
 # RUN which python
