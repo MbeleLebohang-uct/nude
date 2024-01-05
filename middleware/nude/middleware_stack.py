@@ -28,7 +28,7 @@ class MiddlewareStack(Stack):
             'PLATFORM_SUPABASE_SERVICE_ROLE_KEY': getenv('PLATFORM_SUPABASE_SERVICE_ROLE_KEY'),
             'PLATFORM_SUPABASE_URL': getenv('PLATFORM_SUPABASE_URL'),
             'PLATFORM_SUPABASE_ANON_KEY': getenv('PLATFORM_SUPABASE_ANON_KEY'),
-            'ENVIRONMENT': 'production' if stage == 'main' else 'sandbox' # main branch deployments == production
+            'ENVIRONMENT': 'sandbox' # main branch deployments == production, you can use stage to see which deployment this is
         }
 
         self._add_docker_lambda_function('on-policy-cancelled', 'POST', webhooks_resources, {
