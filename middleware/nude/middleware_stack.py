@@ -62,7 +62,7 @@ class MiddlewareStack(Stack):
         resources = parent_resource.add_resource(key)
         lambda_integration = _apigateway.LambdaIntegration(
             _lambda.DockerImageFunction(self, f"{self.stage}-{self.name}-{key}-lambda-function",
-                code=_lambda.DockerImageCode.from_image_asset(path.join(path.dirname(__file__), key), platform=_ecr_assets.Platform.LINUX_ARM64),
+                code=_lambda.DockerImageCode.from_image_asset(path.join(path.dirname(__file__), key)),
                 memory_size=3008,
                 timeout=Duration.seconds(60),
                 environment=environment
