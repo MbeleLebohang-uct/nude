@@ -5,8 +5,8 @@ ADD app app
 
 COPY requirements.txt ${LAMBDA_TASK_ROOT}
 
-SHELL ["/bin/bash", "-c"] 
+SHELL ["/bin/bash", "-c", "pip3 install -r requirements.txt"]
 
-RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
+# RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
 
 CMD ["main.handler"]
