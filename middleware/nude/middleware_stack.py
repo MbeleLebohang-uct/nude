@@ -63,7 +63,7 @@ class MiddlewareStack(Stack):
                 memory_size=3008,
                 timeout=Duration.seconds(60),
                 environment=environment,
-                architecture=_lambda.Architecture.X86_64
+                architecture=_lambda.Architecture.ARM_64
             )
         )
         resources.add_method(http_method, lambda_integration)
