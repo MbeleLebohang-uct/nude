@@ -37,7 +37,11 @@ jobs:
         env:
           ENV_FILE_CONTENTS: ${{ secrets.ENV_FILE_CONTENTS }}
       - name: AWS account bootstraping
-        run: cd middleware && source .venv/bin/activate && cdk bootstrap -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
+        run: |
+          cd middleware 
+          source .venv/bin/activate 
+          echo "VIRTUAL ENV:" $VIRTUAL_ENV
+          cdk bootstrap -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
       - name: AWS stack synthsize
         run: cd middleware && source .venv/bin/activate && cdk synthesize -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
       - name: AWS stack deploy
