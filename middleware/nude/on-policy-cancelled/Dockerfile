@@ -7,6 +7,10 @@ ADD app app
 # Install the function's dependencies using file requirements.txt
 # from your project folder.
 COPY requirements.txt  .
+RUN echo "Hello, this is an echo message."
+RUN which pip3
+RUN which pip
+RUN which python
 RUN pip3 --version
 RUN pip --version
 RUN  pip install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"
