@@ -36,14 +36,24 @@ jobs:
         run: echo $ENV_FILE_CONTENTS | base64 -d > ./.env
         env:
           ENV_FILE_CONTENTS: ${{ secrets.ENV_FILE_CONTENTS }}
-      - name: AWS account bootstraping
+      - name: Activate middleware venv
         run: |
           cd middleware 
           source .venv/bin/activate 
           echo "VIRTUAL ENV:" $VIRTUAL_ENV
+      - name: AWS account bootstraping
+        run: |
+          cd middleware 
+          echo "VIRTUAL ENV:" $VIRTUAL_ENV
           cdk bootstrap -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
       - name: AWS stack synthsize
-        run: cd middleware && source .venv/bin/activate && cdk synthesize -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
+        run: |
+          cd middleware
+          echo "VIRTUAL ENV:" $VIRTUAL_ENV
+          cdk synthesize -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} 
       - name: AWS stack deploy
-        run: cdk deploy --require-approval never -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} -O aws_config.json
+        run: | 
+          cd middleware
+          echo "VIRTUAL ENV:" $VIRTUAL_ENV
+          cdk deploy --require-approval never -c stage=${STAGE} -c accountId=${ACCOUNT_ID} -c region=${REGION} -O aws_config.json
         
