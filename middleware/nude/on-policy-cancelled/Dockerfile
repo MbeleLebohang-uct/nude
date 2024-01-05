@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.8
+FROM public.ecr.aws/lambda/python:3.9
 
 COPY main.py ${LAMBDA_TASK_ROOT}
 ADD app app
