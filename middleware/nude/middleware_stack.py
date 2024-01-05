@@ -62,7 +62,8 @@ class MiddlewareStack(Stack):
                 code=_lambda.DockerImageCode.from_image_asset(path.join(path.dirname(__file__), key), platform=_ecr_assets.Platform.LINUX_ARM64),
                 memory_size=3008,
                 timeout=Duration.seconds(60),
-                environment=environment
+                environment=environment,
+                architecture=_lambda.Architecture.X86_64
             )
         )
         resources.add_method(http_method, lambda_integration)
